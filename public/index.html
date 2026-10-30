@@ -1,0 +1,1368 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KO Trends | Sneakers, NBA Jerseys & Streetwear</title>
+<meta name="description" content="KO Trends: original sneakers, NBA jerseys and premium streetwear. Barcode verified, cash on delivery across Lebanon and Syria. Order on WhatsApp.">
+<meta name="theme-color" content="#0B0A08">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="KO Trends">
+<meta property="og:title" content="KO Trends | Sneakers, NBA Jerseys & Streetwear">
+<meta property="og:description" content="Original sneakers and NBA jerseys. Barcode verified, delivered across Lebanon and Syria.">
+<meta property="og:image" content="og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,400&family=Bodoni+Moda:ital,opsz,wght@1,6..96,400;1,6..96,500&family=Tajawal:wght@400;500;700;800&display=swap">
+<style>
+/* Layout: one committed black-and-gold world taken from the KO monogram. Full-bleed type, hairline grids, pinned scroll scenes. */
+:root{
+  --ink:#0B0A08; --ink-2:#12100D; --ink-3:#1A1713;
+  --bone:#ECE4D4; --dim:#8E8676; --line:rgba(236,228,212,.12); --line-2:rgba(236,228,212,.22);
+  --gold:#C99A52; --gold-hi:#EBC98C;
+  --wide:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --serif:"Bodoni Moda","Didot","Bodoni 72",Georgia,serif;
+  --ar:"Tajawal","Segoe UI",Tahoma,sans-serif;
+  --ease:cubic-bezier(.16,1,.3,1);
+  --gx:max(20px,env(safe-area-inset-left,0px));
+  --gy:max(20px,env(safe-area-inset-right,0px));
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{overflow-x:clip}
+[hidden]{display:none!important}
+html.lenis,html.lenis body{height:auto}
+.lenis.lenis-smooth{scroll-behavior:auto!important}
+.lenis.lenis-stopped{overflow:hidden}
+body{margin:0;background:var(--ink);color:var(--bone);font-family:var(--wide);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:clip}
+html[dir="rtl"] body{font-family:var(--ar)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--ink)}
+::selection{background:var(--gold);color:var(--ink)}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;background:none;border:0;padding:0}
+a{color:inherit;text-decoration:none}
+img{display:block;max-width:100%}
+:focus-visible{outline:1px solid var(--gold);outline-offset:3px}
+.gut{padding-left:var(--gx);padding-right:var(--gy)}
+.cap{font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:500;font-stretch:110%}
+html[dir="rtl"] .cap{letter-spacing:0;font-size:14px}
+.dim{color:var(--dim)}
+.it{font-family:var(--serif);font-style:italic;font-weight:400;text-transform:none;letter-spacing:-.01em;font-stretch:100%}
+html[dir="rtl"] .it{font-family:var(--ar);font-style:normal;color:var(--gold)}
+.num{font-variant-numeric:tabular-nums}
+.ltr{direction:ltr;unicode-bidi:isolate}
+.ulink{position:relative;display:inline-block}
+.ulink::after{content:"";position:absolute;left:0;right:0;bottom:-3px;height:1px;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .5s var(--ease)}
+.ulink:hover::after,.ulink.on::after{transform:scaleX(1);transform-origin:left}
+
+/* buttons */
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:14px;height:54px;padding:0 28px;border:1px solid var(--bone);border-radius:999px;font-size:13px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;font-stretch:112%;overflow:hidden;isolation:isolate;transition:color .45s var(--ease),border-color .45s}
+html[dir="rtl"] .btn{letter-spacing:0;font-size:15px}
+.btn::before{content:"";position:absolute;inset:0;background:var(--bone);border-radius:inherit;transform:translateY(101%);transition:transform .55s var(--ease);z-index:-1}
+.btn:hover{color:var(--ink)}
+.btn:hover::before{transform:none}
+.btn.solid{background:var(--gold);border-color:var(--gold);color:var(--ink)}
+.btn.solid::before{background:var(--bone)}
+.btn.full{width:100%}
+.btn[disabled]{opacity:.35;pointer-events:none}
+.btn .arr{display:inline-block;transition:transform .45s var(--ease)}
+.btn:hover .arr{transform:translateX(4px)}
+html[dir="rtl"] .arr{transform:scaleX(-1)}
+html[dir="rtl"] .btn:hover .arr{transform:scaleX(-1) translateX(4px)}
+
+/* ko monogram */
+.ko{display:block;overflow:visible}
+.ko use{fill:url(#koGold)}
+
+/* preloader */
+#pre{position:fixed;inset:0;z-index:200;background:var(--ink);display:grid;place-items:center}
+#pre .ko{width:min(220px,46vw);height:auto}
+#pre .ko use{fill:url(#koGold);fill-opacity:0;stroke:var(--gold);stroke-width:7;stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.3s var(--ease) forwards,fillin .6s .9s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes fillin{to{fill-opacity:1;stroke-width:0}}
+#pre .pc{position:absolute;bottom:calc(28px + env(safe-area-inset-bottom,0px));left:var(--gx);right:var(--gy);display:flex;justify-content:space-between}
+#pre .bar{position:absolute;left:0;bottom:0;height:2px;background:var(--gold);width:0}
+
+
+/* header */
+#hd{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:50;transition:transform .6s var(--ease),background .4s,border-color .4s;border-bottom:1px solid transparent}
+#hd.solid{background:rgba(11,10,8,.82);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-color:var(--line)}
+#hd.away{transform:translateY(-110%)}
+.hrow{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;height:76px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .ko{width:34px;height:auto}
+.brand b{font-weight:800;font-stretch:125%;letter-spacing:.08em;font-size:14px}
+.hnav{display:flex;gap:30px}
+.hnav button{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;font-stretch:110%;color:var(--dim);transition:color .3s}
+html[dir="rtl"] .hnav button{letter-spacing:0;font-size:15px}
+.hnav button:hover,.hnav button.on{color:var(--bone)}
+.hact{display:flex;gap:22px;justify-content:flex-end;align-items:center}
+.hact button{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;font-stretch:110%}
+html[dir="rtl"] .hact button{letter-spacing:0;font-size:15px}
+.bagn{display:inline-grid;place-items:center;min-width:22px;height:22px;border-radius:11px;background:var(--gold);color:var(--ink);font-size:11px;font-weight:700;margin-inline-start:6px;padding:0 6px}
+.menu-btn{display:none}
+@media (max-width:1020px){.hnav{display:none}.hrow{grid-template-columns:1fr auto}.menu-btn{display:inline}}
+@media (max-width:520px){.brand b{display:none}.hact{gap:16px}}
+
+/* mobile menu */
+#menu{position:fixed;inset:0;z-index:45;background:var(--ink);padding:calc(env(safe-area-inset-top,0px) + 100px) var(--gy) 40px var(--gx);display:flex;flex-direction:column;gap:6px;clip-path:inset(0 0 100% 0);transition:clip-path .8s var(--ease);visibility:hidden}
+#menu.open{clip-path:inset(0);visibility:visible}
+#menu button{font-size:clamp(38px,11vw,64px);font-weight:800;font-stretch:125%;text-transform:uppercase;line-height:1.05;text-align:start}
+html[dir="rtl"] #menu button{font-weight:800}
+
+/* hero */
+#hero{position:relative;min-height:max(640px,min(100svh,1000px));display:flex;flex-direction:column;justify-content:space-between;padding-top:calc(env(safe-area-inset-top,0px) + 110px);padding-bottom:28px;overflow:hidden}
+.glow{position:absolute;left:50%;top:44%;width:min(900px,120vw);aspect-ratio:1;transform:translate(-50%,-50%);background:radial-gradient(closest-side,rgba(201,154,82,.22),rgba(201,154,82,.06) 55%,transparent);pointer-events:none}
+.htop{position:relative;display:flex;justify-content:space-between;gap:24px;z-index:2}
+.htop p{margin:0;max-width:28ch;font-size:15px;color:var(--dim)}
+.htop .r{text-align:end}
+.wall{position:absolute;inset:-30% -12% -30% -12%;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:14px;transform:perspective(1600px) rotateX(22deg) rotateZ(-9deg);transform-origin:50% 40%;z-index:0}
+.wcol{display:flex;flex-direction:column;gap:14px;animation:wup 70s linear infinite;will-change:transform}
+.wcol:nth-child(even){animation-name:wdown;animation-duration:85s}
+@keyframes wup{to{transform:translateY(-50%)}}
+@keyframes wdown{from{transform:translateY(-50%)}to{transform:translateY(0)}}
+.wt{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--ink-2);cursor:pointer}
+.wt img{width:100%;height:100%;object-fit:cover;filter:grayscale(.45) brightness(.62) contrast(1.05);transition:filter .6s,transform 1s var(--ease)}
+.wt:hover img{filter:none;transform:scale(1.06)}
+.hveil{position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(48% 42% at 50% 48%,rgba(11,10,8,.92),rgba(11,10,8,.55) 62%,rgba(11,10,8,.15) 100%),linear-gradient(to top,var(--ink) 4%,transparent 38%),linear-gradient(to bottom,var(--ink),transparent 22%)}
+.hmono{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);z-index:2;width:min(300px,52vw);pointer-events:none;filter:drop-shadow(0 0 40px rgba(201,154,82,.35))}
+.hmono .ko{width:100%;height:auto}
+@media (max-width:760px){.hveil{background:radial-gradient(70% 34% at 50% 46%,rgba(11,10,8,.9),rgba(11,10,8,.5) 70%,rgba(11,10,8,.25)),linear-gradient(to top,var(--ink) 8%,transparent 40%),linear-gradient(to bottom,var(--ink) 18%,transparent 42%)}.word{font-size:clamp(56px,14.5vw,268px)}.wall{grid-template-columns:repeat(3,minmax(0,1fr));inset:-20% -30%}.wcol:nth-child(n+4){display:none}}
+@keyframes float{50%{transform:translateY(-14px) rotate(-1deg)}}
+.word{direction:ltr;position:relative;z-index:2;font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.78;font-size:clamp(64px,15.6vw,268px);letter-spacing:-.02em;white-space:nowrap;display:flex;justify-content:space-between;margin:0}
+.word .c{display:inline-block;will-change:transform}
+.word .sp{width:.3em;flex:none}
+.hbot{position:relative;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;margin-top:22px}
+.scue{display:flex;align-items:center;gap:12px}
+.scue i{display:block;width:60px;height:1px;background:var(--line-2);position:relative;overflow:hidden}
+.scue i::after{content:"";position:absolute;inset:0;background:var(--gold);animation:cue 2.2s var(--ease) infinite}
+@keyframes cue{0%{transform:translateX(-100%)}60%,100%{transform:translateX(100%)}}
+@media (max-width:700px){.hbot .btn{height:46px;padding:0 18px;font-size:12px}.htop{flex-direction:column}.htop .r{text-align:start}}
+
+/* marquee */
+.mq{border-block:1px solid var(--line);overflow:hidden;padding-block:22px;white-space:nowrap}
+.mq .tr{display:inline-flex;will-change:transform}
+.mq span{font-size:clamp(28px,4vw,52px);font-weight:300;font-stretch:125%;text-transform:uppercase;padding-inline:28px;display:inline-flex;align-items:center;gap:56px}
+.mq span::after{content:"";width:12px;height:12px;border:1.5px solid var(--gold);border-radius:50%;flex:none}
+
+/* statement */
+#statement{padding-block:clamp(90px,14vw,190px)}
+.stmt{font-size:clamp(30px,4.6vw,72px);line-height:1.08;font-weight:500;font-stretch:108%;letter-spacing:-.015em;max-width:21ch;margin:0;text-wrap:balance}
+html[dir="rtl"] .stmt{line-height:1.35;font-weight:700}
+.stmt .w{opacity:.2;transition:opacity .2s}
+.stmt .it{color:var(--gold)}
+.srow{display:grid;grid-template-columns:1fr 2.4fr;gap:40px}
+@media (max-width:820px){.srow{grid-template-columns:1fr;gap:24px}}
+
+/* drop (pinned horizontal) */
+#drop{position:relative;overflow:hidden}
+.dhead{display:flex;justify-content:space-between;align-items:flex-end;padding-top:26px}
+.dhead h2{margin:0;font-size:clamp(46px,7.6vw,128px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.85;letter-spacing:-.02em}
+.dtrack{display:flex;gap:2vw;padding-block:40px 60px;will-change:transform;width:max-content}
+.slide{position:relative;width:min(560px,78vw);flex:none;display:flex;flex-direction:column;gap:18px}
+.slide .stage{position:relative;aspect-ratio:1/1.05;background:var(--ink-2);border:1px solid var(--line);overflow:hidden;display:grid;place-items:center;cursor:pointer}
+.slide .idx{position:absolute;top:-.08em;inset-inline-start:.04em;font-size:clamp(150px,21vw,300px);font-weight:900;font-stretch:125%;line-height:1;color:transparent;-webkit-text-stroke:1px rgba(236,228,212,.13);pointer-events:none}
+.slide .stage img{position:relative;width:84%;transition:transform 1s var(--ease);filter:drop-shadow(0 34px 30px rgba(0,0,0,.6))}
+.slide .stage:hover img{transform:scale(1.06) rotate(-3deg)}
+.slide .meta{display:flex;justify-content:space-between;gap:16px;align-items:baseline}
+.slide .meta b{font-size:19px;font-weight:600}
+.dprog{height:1px;background:var(--line);position:relative;margin-bottom:28px}
+.dprog i{position:absolute;inset:0 auto 0 0;width:0;background:var(--gold)}
+html[dir="rtl"] .dprog i{inset:0 0 0 auto}
+@media (max-width:820px){#drop .dtrack{overflow-x:auto;width:auto;scroll-snap-type:x mandatory;padding-inline:var(--gx)}#drop .slide{scroll-snap-align:start}#drop .dtrack::-webkit-scrollbar{display:none}}
+
+/* categories list */
+#cats{padding-block:clamp(80px,10vw,140px)}
+.clist{border-top:1px solid var(--line);margin-top:40px}
+.crow{position:relative;display:grid;grid-template-columns:70px 1fr auto;align-items:center;gap:20px;width:100%;padding-block:clamp(16px,2.4vw,30px);border-bottom:1px solid var(--line);text-align:start;transition:padding .6s var(--ease),color .4s}
+.crow .n{font-size:13px;color:var(--dim)}
+.crow>span{min-width:0}
+.crow .t{overflow-wrap:break-word;font-size:clamp(30px,6.4vw,104px);font-weight:800;font-stretch:125%;text-transform:uppercase;line-height:.95;letter-spacing:-.02em;transition:transform .7s var(--ease),color .4s}
+html[dir="rtl"] .crow .t{font-size:clamp(30px,5vw,76px)}
+.crow .ar{font-size:30px;transition:transform .6s var(--ease)}
+.crow:hover .t{transform:translateX(18px);color:var(--gold-hi)}
+html[dir="rtl"] .crow:hover .t{transform:translateX(-18px)}
+.crow:hover .ar{transform:rotate(-45deg)}
+.clist:hover .crow:not(:hover) .t{color:rgba(236,228,212,.25)}
+#cfloat{position:fixed;top:0;left:0;z-index:30;width:300px;aspect-ratio:4/5;pointer-events:none;overflow:hidden;clip-path:inset(50% 50% 50% 50%);transition:clip-path .6s var(--ease)}
+#cfloat.on{clip-path:inset(0)}
+#cfloat img{width:100%;height:100%;object-fit:cover}
+@media (hover:none){#cfloat{display:none}.crow{grid-template-columns:44px 1fr auto}}
+
+/* shop */
+#shop{padding-block:40px 120px}
+.shead{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:34px}
+.shead h2{margin:0;font-size:clamp(46px,7.6vw,128px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.85;letter-spacing:-.02em}
+.tabs{display:flex;flex-wrap:wrap;gap:6px 26px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-block:18px;align-items:center}
+.tabs button{font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:500;font-stretch:110%;color:var(--dim)}
+html[dir="rtl"] .tabs button{letter-spacing:0;font-size:15px}
+.tabs button.on,.tabs button:hover{color:var(--bone)}
+.tabs sup{font-size:10px;margin-inline-start:3px;color:var(--gold)}
+.tabs .sp{flex:1}
+.tabs select{background:transparent;border:0;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--bone);font-stretch:110%;cursor:pointer;outline:none}
+.tabs select option{background:var(--ink-2)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-inline-start:1px solid var(--line)}
+.card{position:relative;border-inline-end:1px solid var(--line);border-bottom:1px solid var(--line);padding:14px 14px 20px;display:flex;flex-direction:column;gap:14px;min-width:0;cursor:pointer}
+.card .ph{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--ink-2)}
+.card .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transition:transform 1.2s var(--ease),opacity .6s}
+.card .ph img.b{opacity:0}
+.card:hover .ph img.a{transform:scale(1.07)}
+.card:hover .ph img.b{opacity:1}
+.card .ph::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(236,228,212,.06);background:linear-gradient(to top,rgba(11,10,8,.28),transparent 40%)}
+.card .tagl{position:absolute;top:12px;inset-inline-start:12px;z-index:2;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:600;background:var(--ink);padding:5px 9px;font-stretch:110%}
+.card .tagl.g{background:var(--gold);color:var(--ink)}
+.card .qv{position:absolute;left:0;right:0;bottom:0;z-index:2;background:var(--bone);color:var(--ink);text-align:center;padding:13px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;transform:translateY(101%);transition:transform .5s var(--ease)}
+.card:hover .qv{transform:none}
+.card .row{display:flex;justify-content:space-between;gap:12px;align-items:baseline}
+.card .nm{font-weight:600;font-size:15px;line-height:1.3}
+.card .pr{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.card .pr s{color:var(--dim);font-weight:400;margin-inline-end:6px}
+.card .br{font-size:13px;color:var(--dim)}
+.card.oos .ph img{filter:grayscale(1) brightness(.6)}
+@media (max-width:1100px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.card{padding:10px 10px 16px}.card .nm{font-size:14px}}
+@media (hover:none){.card .qv{display:none}}
+.empty{grid-column:1/-1;padding:80px 20px;text-align:center;border-inline-end:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+/* legends */
+#legends{padding-block:clamp(90px,12vw,170px);border-top:1px solid var(--line)}
+.lg{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+.lg .stick{position:sticky;top:120px}
+.lg h2{margin:0 0 26px;font-size:clamp(52px,8vw,138px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.84;letter-spacing:-.025em}
+.lg h2 .it{display:block;font-size:.72em;color:var(--gold);text-transform:none;letter-spacing:-.01em;line-height:1}
+.lg p{max-width:38ch;color:var(--dim);font-size:17px;margin:0 0 30px}
+.lcol{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.lcol figure{margin:0;cursor:pointer}
+.lcol figure:nth-child(even){margin-top:120px}
+.lcol .fr{overflow:hidden;aspect-ratio:4/5;background:var(--ink-2)}
+.lcol img{width:100%;height:100%;object-fit:contain;will-change:transform}
+.lcol figcaption{display:flex;justify-content:space-between;gap:10px;padding-top:12px;font-size:14px}
+@media (max-width:860px){.lg{grid-template-columns:1fr}.lg .stick{position:static}.lcol figure:nth-child(even){margin-top:50px}}
+
+/* service */
+.svc{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line)}
+.svc div{padding:34px 26px 40px 0;border-inline-end:1px solid var(--line);padding-inline-start:26px}
+.svc div:first-child{padding-inline-start:0}
+.svc div:last-child{border:0}
+.svc b{display:block;font-size:18px;font-weight:600;margin:14px 0 8px}
+.svc p{margin:0;color:var(--dim);font-size:15px}
+@media (max-width:860px){.svc{grid-template-columns:1fr 1fr}.svc div{padding:26px 16px!important;border-bottom:1px solid var(--line)}.svc div:nth-child(2n){border-inline-end:0}}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding-top:90px;padding-bottom:calc(30px + env(safe-area-inset-bottom,0px));overflow:hidden}
+.fcols{display:grid;grid-template-columns:2fr 1fr 1fr 1.2fr;gap:30px}
+.fcols h5{margin:0 0 16px;color:var(--dim)}
+.fcols ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.fcols li button,.fcols li a{color:var(--bone)}
+.fbig{font-size:clamp(32px,4.4vw,64px);font-weight:800;font-stretch:125%;text-transform:uppercase;line-height:.95;margin:0 0 26px;letter-spacing:-.02em}
+.fmono{margin-top:90px;display:flex;justify-content:center}
+.fmono .ko{width:min(560px,80vw);height:auto;opacity:.95}
+.legal{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-top:60px;padding-top:22px;border-top:1px solid var(--line);font-size:13px;color:var(--dim)}
+.legal b{color:var(--bone);font-weight:500}
+.copyn{display:inline-flex;gap:12px;align-items:center}
+@media (max-width:860px){.fcols{grid-template-columns:1fr 1fr}.fcols>div:first-child{grid-column:1/-1}}
+
+/* panels */
+.veil{position:fixed;inset:0;z-index:80;background:rgba(5,5,4,.6);opacity:0;pointer-events:none;transition:opacity .5s}
+.veil.on{opacity:1;pointer-events:auto}
+.side{position:fixed;top:0;bottom:0;inset-inline-end:0;z-index:90;width:min(560px,100vw);background:var(--ink-2);border-inline-start:1px solid var(--line);display:flex;flex-direction:column;transform:translateX(102%);transition:transform .8s var(--ease);padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html[dir="rtl"] .side{transform:translateX(-102%)}
+.side.open{transform:none!important}
+.sh{display:flex;justify-content:space-between;align-items:center;padding:22px 26px;border-bottom:1px solid var(--line)}
+.sb{flex:1;overflow:auto;overscroll-behavior:contain}
+.sf{border-top:1px solid var(--line);padding:22px 26px;display:flex;flex-direction:column;gap:12px}
+.pad{padding:22px 26px}
+.close{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+
+/* product panel */
+.pv .gal{position:relative;aspect-ratio:1/1;background:var(--ink-3);overflow:hidden}
+.pv .gal img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;transition:opacity .5s}
+.pv .gal img.cut{object-fit:contain;padding:8%}
+.pv .dots{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:8px;z-index:2}
+.pv .dots button{width:26px;height:2px;background:rgba(236,228,212,.3)}
+.pv .dots button.on{background:var(--bone)}
+.pv h3{font-size:clamp(28px,3.4vw,40px);font-weight:800;font-stretch:118%;text-transform:uppercase;line-height:.98;letter-spacing:-.015em;margin:8px 0 14px}
+html[dir="rtl"] .pv h3{line-height:1.25}
+.pv .pp{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}
+.pv .pp s{color:var(--dim);font-weight:400;font-size:17px;margin-inline-start:10px}
+.pv p.d{color:var(--dim);margin:16px 0 0}
+.szs{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:6px;margin-top:10px}
+.szs button{height:48px;border:1px solid var(--line-2);font-weight:600;font-variant-numeric:tabular-nums;transition:background .25s,color .25s,border-color .25s}
+.szs button:hover{border-color:var(--bone)}
+.szs button.on{background:var(--bone);color:var(--ink);border-color:var(--bone)}
+.szs button.x{color:var(--dim);text-decoration:line-through;opacity:.45;pointer-events:none}
+.szhead{display:flex;justify-content:space-between;margin-top:24px}
+.acc{margin-top:24px;border-top:1px solid var(--line)}
+.acc details{border-bottom:1px solid var(--line);padding-block:16px}
+.acc summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"+";color:var(--gold)}
+.acc details[open] summary::after{content:"\2212"}
+.acc p{margin:10px 0 0;color:var(--dim);font-size:15px}
+.sgt{width:100%;border-collapse:collapse;margin-top:12px;font-size:14px;font-variant-numeric:tabular-nums}
+.sgt td,.sgt th{padding:7px 0;border-bottom:1px solid var(--line);text-align:start;font-weight:400}
+.sgt th{color:var(--dim)}
+.sfbox{margin-top:16px;padding:18px;border:1px solid var(--line-2);background:var(--ink-3)}
+.sfg{display:grid;grid-template-columns:1fr 1fr;margin-bottom:18px;border:1px solid var(--line-2)}
+.sfg button{height:42px;font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--dim)}
+.sfg button.on{background:var(--bone);color:var(--ink)}
+.sfres{margin:14px 0 0;font-size:16px}
+.sfres b{color:var(--gold-hi);font-size:22px}
+.wa{display:flex;justify-content:center;font-size:13px;letter-spacing:.12em;text-transform:uppercase;font-weight:600;padding:10px;color:var(--dim)}
+.wa:hover{color:var(--gold-hi)}
+.also{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}
+.also button{text-align:start;display:flex;flex-direction:column;gap:8px}
+.also img{aspect-ratio:4/5;object-fit:contain;width:100%;background:var(--ink-3)}
+.also span{font-size:13px}
+
+/* product panel layout: sizes visible without scrolling */
+@media (min-width:1000px){.side.wide{width:min(1120px,94vw)}}
+@media (min-width:1000px){
+  .side.wide .sb.pv{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);overflow:hidden}
+  .side.wide .pv .gal{aspect-ratio:auto;height:100%}
+  .side.wide .pv .pad{overflow:auto;overscroll-behavior:contain;padding:30px 32px 40px}
+}
+@media (max-width:999px){.pv .gal{aspect-ratio:auto;height:min(44vh,100vw)}}
+/* bag */
+.li{display:grid;grid-template-columns:86px 1fr auto;gap:16px;padding:18px 26px;border-bottom:1px solid var(--line)}
+.li img{width:86px;aspect-ratio:4/5;object-fit:contain;background:var(--ink-3);cursor:pointer}
+.li .nm{font-weight:600;line-height:1.3}
+.qty{display:inline-flex;align-items:center;border:1px solid var(--line-2);margin-top:12px}
+.qty button{width:34px;height:32px}
+.qty span{min-width:24px;text-align:center;font-variant-numeric:tabular-nums}
+.rm{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim);margin-inline-start:14px}
+.rm:hover{color:var(--bone)}
+.prog{height:1px;background:var(--line-2);margin-top:10px;position:relative}
+.prog i{position:absolute;inset:0 auto 0 0;background:var(--gold);transition:width .8s var(--ease)}
+html[dir="rtl"] .prog i{inset:0 0 0 auto}
+.sr{display:flex;justify-content:space-between;gap:12px;font-variant-numeric:tabular-nums;font-size:15px}
+.sr.t{font-size:20px;font-weight:700;padding-top:6px}
+.sr .g{color:var(--gold-hi)}
+.promo{display:flex;border-bottom:1px solid var(--line-2)}
+.promo input{flex:1;min-width:0;background:none;border:0;padding:12px 0;outline:none;text-transform:uppercase;letter-spacing:.08em}
+.promo button{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.emptyb{padding:60px 26px;display:flex;flex-direction:column;gap:22px;align-items:flex-start}
+.emptyb p{font-size:28px;font-weight:700;font-stretch:118%;text-transform:uppercase;line-height:1;margin:0;max-width:14ch}
+
+/* form */
+.fld{display:flex;flex-direction:column;gap:6px;margin-bottom:18px;min-width:0}
+.fld label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:500}
+html[dir="rtl"] .fld label{letter-spacing:0;font-size:14px}
+.fld input,.fld select,.fld textarea{background:transparent;border:0;border-bottom:1px solid var(--line-2);padding:10px 0;outline:none;border-radius:0;font-size:17px}
+.fld select option{background:var(--ink-2)}
+.fld input:focus,.fld select:focus,.fld textarea:focus{border-color:var(--gold)}
+.fld textarea{resize:vertical;min-height:44px}
+.fld .err{color:#E2735A;font-size:13px;min-height:0}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.pay{display:grid;gap:8px;margin-top:6px}
+.pay label{display:flex;justify-content:space-between;gap:12px;align-items:center;border:1px solid var(--line-2);padding:14px 16px;cursor:pointer;font-size:15px;letter-spacing:0;text-transform:none;color:var(--bone)}
+.pay label span{color:var(--dim);font-size:13px}
+.pay input{position:absolute;opacity:0;pointer-events:none}
+.pay label:has(input:checked){border-color:var(--gold);background:rgba(201,154,82,.07)}
+.steps{display:flex;gap:18px}
+.steps span{color:var(--dim)}
+.steps span.on{color:var(--bone)}
+.done{padding:50px 26px;display:flex;flex-direction:column;gap:20px;align-items:flex-start}
+.done h3{font-size:52px;font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.88;margin:0;letter-spacing:-.02em}
+.done pre{white-space:pre-wrap;margin:0;width:100%;font:13px/1.6 ui-monospace,Menlo,Consolas,monospace;background:var(--ink-3);border:1px solid var(--line);padding:16px;max-height:240px;overflow:auto;color:var(--dim)}
+
+/* search */
+#search{position:fixed;inset:0;z-index:95;background:var(--ink);padding:calc(env(safe-area-inset-top,0px) + 30px) var(--gy) 40px var(--gx);overflow:auto;clip-path:inset(0 0 100% 0);transition:clip-path .8s var(--ease);visibility:hidden}
+#search.open{clip-path:inset(0);visibility:visible}
+.stop{display:flex;justify-content:space-between;align-items:center}
+#sq{width:100%;background:none;border:0;border-bottom:1px solid var(--line-2);font-size:clamp(34px,6vw,86px);font-weight:800;font-stretch:125%;text-transform:uppercase;padding:30px 0 16px;outline:none;letter-spacing:-.02em}
+#sq::placeholder{color:rgba(236,228,212,.18)}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:22px;margin-top:30px}
+.sgrid button{text-align:start;display:flex;flex-direction:column;gap:10px}
+.sgrid img{aspect-ratio:4/5;object-fit:contain;width:100%;background:var(--ink-2)}
+.sugg{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:18px}
+
+.toast{position:fixed;left:50%;bottom:calc(26px + env(safe-area-inset-bottom,0px));z-index:120;transform:translate(-50%,calc(100% + 80px));visibility:hidden;background:var(--bone);color:var(--ink);padding:14px 22px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:600;transition:transform .6s var(--ease);max-width:calc(100vw - 40px);text-align:center}
+.toast.on{transform:translate(-50%,0);visibility:visible}
+
+/* owner */
+#admin{padding-top:calc(env(safe-area-inset-top,0px) + 120px);padding-bottom:80px;min-height:100vh}
+#admin h2{font-size:clamp(46px,7vw,110px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.85;margin:10px 0 18px;letter-spacing:-.02em}
+.kp{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:28px 0}
+.kp div{padding:20px 0;border-inline-end:1px solid var(--line);padding-inline-start:20px}
+.kp div:first-child{padding-inline-start:0}
+.kp div:last-child{border:0}
+.kp b{display:block;font-size:42px;font-weight:800;font-stretch:118%;font-variant-numeric:tabular-nums;line-height:1.1}
+@media (max-width:700px){.kp{grid-template-columns:1fr 1fr}.kp div{border-bottom:1px solid var(--line)}}
+.atabs{display:flex;gap:26px;margin-bottom:22px}
+.atabs button{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.atabs button.on{color:var(--bone)}
+.tw{overflow-x:auto;border-top:1px solid var(--line)}
+table.at{width:100%;border-collapse:collapse;min-width:880px;font-size:15px}
+.at th,.at td{padding:12px 10px;border-bottom:1px solid var(--line);text-align:start;vertical-align:middle}
+.at th{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--dim);font-weight:500}
+.at img{width:46px;aspect-ratio:4/5;object-fit:cover}
+.at input[type=number],.at select{background:transparent;border:1px solid var(--line-2);padding:6px 8px;width:86px;color:var(--bone)}
+.at select option{background:var(--ink-2)}
+.addf{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:4px 22px;align-items:end;border:1px solid var(--line);padding:22px;margin-bottom:24px}
+.st{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:600}
+.st.New{color:var(--gold-hi)}.st.Delivered{color:#8FC79A}
+
+/* scene: built layer by layer */
+#build{position:relative;height:100svh;min-height:620px;overflow:hidden;border-top:1px solid var(--line)}
+.bw{position:relative;height:100%;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);align-items:center;gap:2vw}
+.btxt{position:relative;z-index:2}
+.btxt h2{margin:14px 0 22px;font-size:clamp(46px,6.6vw,112px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.86;letter-spacing:-.025em}
+.btxt h2 .it{display:block;color:var(--gold);text-transform:none;font-size:.78em;line-height:1}
+.btxt p{color:var(--dim);max-width:34ch;margin:0}
+.bbuy{display:flex;align-items:center;gap:22px;margin-top:34px}
+.bbuy .num{font-size:28px;font-weight:600}
+.bstage{position:relative;height:100%;display:grid;place-items:center start}
+.bstage::before{content:"";position:absolute;inset:12% 6%;background:radial-gradient(closest-side,rgba(201,154,82,.16),transparent 70%);pointer-events:none}
+#bsvg{position:relative;width:min(74%,80vh);height:auto;overflow:visible}
+#bFull{opacity:0}
+#bOut{fill:none;stroke:var(--gold);stroke-width:1.6;stroke-dasharray:1;stroke-dashoffset:1;vector-effect:non-scaling-stroke}
+#lace{fill:none;stroke:var(--gold-hi);stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,.5))}
+.blab{position:absolute;inset-inline-end:0;display:flex;align-items:center;gap:14px;opacity:0;transform:translateY(-50%);pointer-events:none}
+.blab i{display:block;width:clamp(40px,7vw,110px);height:1px;background:var(--line-2)}
+.blab div{display:flex;flex-direction:column;line-height:1.3}
+.blab b{font-weight:600;font-size:15px}
+.blab span{font-size:13px;color:var(--dim)}
+.bprog{position:absolute;inset-inline-start:var(--gx);bottom:28px;display:flex;gap:18px;z-index:3}
+.bprog span{color:var(--dim);transition:color .3s}
+.bprog span.on{color:var(--gold-hi)}
+@media (max-width:860px){.bstage{place-items:center}#bsvg{width:min(100%,60vh)!important}.bw{grid-template-columns:1fr;grid-template-rows:auto 1fr;align-content:start;padding-top:110px}.btxt h2{font-size:clamp(40px,11vw,64px);margin:10px 0 12px}.btxt p{font-size:15px}.bbuy{margin-top:18px}.blab{display:none}#bsvg{width:min(100%,60vh)}.bprog{display:none}}
+/* scene: store to door */
+#deliver{position:relative;height:100svh;min-height:600px;overflow:hidden;border-top:1px solid var(--line);background:radial-gradient(120% 70% at 50% 110%,#17130d,var(--ink) 60%)}
+#dsvg{position:absolute;inset:0;width:100%;height:100%}
+.dvh{position:absolute;top:calc(env(safe-area-inset-top,0px) + 100px);left:0;right:0;z-index:2;display:flex;justify-content:space-between;align-items:flex-end;gap:20px;pointer-events:none}
+.dvh h2{margin:10px 0 0;font-size:clamp(40px,5.6vw,96px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.86;letter-spacing:-.025em}
+.dvh h2 .it{color:var(--gold);text-transform:none}
+.dsteps{position:absolute;left:0;right:0;bottom:calc(26px + env(safe-area-inset-bottom,0px));z-index:2;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.dsteps div{border-top:1px solid var(--line-2);padding-top:12px;transition:border-color .4s,opacity .4s;opacity:.45}
+.dsteps div.on{border-color:var(--gold);opacity:1}
+.dsteps b{display:block;font-weight:600;font-size:15px;margin-top:4px}
+.dsteps span{font-size:13px;color:var(--dim)}
+@media (max-width:760px){.dsteps{grid-template-columns:1fr 1fr;gap:12px 14px}.dsteps span{display:none}.dvh{top:calc(env(safe-area-inset-top,0px) + 86px)}}
+#dsvg .ln{fill:none;stroke:var(--bone);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+#dsvg .lnd{fill:none;stroke:rgba(236,228,212,.28);stroke-width:1.5}
+#dsvg .road{fill:none;stroke:rgba(236,228,212,.16);stroke-width:2;stroke-dasharray:10 12}
+#dsvg .roadg{fill:none;stroke:var(--gold);stroke-width:2.5}
+#dsvg .cp{fill:var(--ink);stroke:var(--gold);stroke-width:2;transition:fill .3s}
+#dsvg .cp.on{fill:var(--gold)}
+#dsvg .cpt{fill:var(--dim);font:600 14px var(--wide);letter-spacing:.14em;text-transform:uppercase;transition:fill .3s}
+#dsvg .cpt.on{fill:var(--bone)}
+#dsvg .sign{fill:var(--bone);font:800 22px var(--wide);letter-spacing:.2em;font-stretch:125%}
+#dsvg .vt{fill:var(--bone);font:700 10px var(--wide);letter-spacing:.24em}
+#dsvg .done{fill:var(--bone);font:900 56px var(--wide);font-stretch:125%;text-transform:uppercase;letter-spacing:-.02em}
+#dsvg .done2{fill:var(--gold);font:italic 400 34px var(--serif)}
+
+/* scene: the making (three.js) */
+#make{position:relative;height:100svh;min-height:620px;overflow:hidden;border-top:1px solid var(--line);background:radial-gradient(60% 55% at 62% 52%,rgba(201,154,82,.10),transparent 70%),var(--ink)}
+#mk{position:absolute;inset:0;width:100%;height:100%;display:block}
+#mkPoster{position:absolute;left:58%;top:52%;width:min(62vw,880px);transform:translate(-50%,-50%)}
+.mkui{position:absolute;inset:0;pointer-events:none;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto 1fr auto;padding-top:calc(env(safe-area-inset-top,0px) + 100px);padding-bottom:30px}
+.mkhead{grid-column:1/-1}
+.mkhead h2{margin:10px 0 0;font-size:clamp(40px,5.4vw,92px);font-weight:900;font-stretch:125%;text-transform:uppercase;line-height:.88;letter-spacing:-.025em;max-width:12ch}
+.mkhead h2 .it{color:var(--gold);text-transform:none;display:block}
+.mksteps{list-style:none;margin:0;padding:0;align-self:end;display:flex;flex-direction:column;gap:2px;max-width:330px;grid-row:3}
+.mksteps li{display:grid;grid-template-columns:34px 1fr;gap:10px;padding:9px 0;border-top:1px solid var(--line);opacity:.35;transition:opacity .5s}
+.mksteps li.on{opacity:1}
+.mksteps li .num{font-size:12px;color:var(--gold);padding-top:3px}
+.mksteps b{font-weight:600;font-size:15px}
+.mksteps p{margin:0;font-size:13px;color:var(--dim);max-height:0;overflow:hidden;transition:max-height .6s var(--ease)}
+.mksteps li.on p{max-height:60px}
+.mkside{grid-column:2;grid-row:3;justify-self:end;align-self:end;text-align:end;display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.mkbig{font-size:clamp(90px,12vw,200px);font-weight:900;font-stretch:125%;line-height:.8;color:transparent;-webkit-text-stroke:1px rgba(236,228,212,.28)}
+.mkcw b{display:block;font-size:20px;font-weight:600;font-stretch:115%}
+.mkbar{position:absolute;left:var(--gx);right:var(--gy);bottom:14px;height:1px;background:var(--line)}
+.mkbar i{position:absolute;inset:0 auto 0 0;width:0;background:var(--gold)}
+html[dir="rtl"] .mkbar i{inset:0 0 0 auto}
+@media (max-width:760px){.mkui{grid-template-columns:1fr;padding-top:calc(env(safe-area-inset-top,0px) + 84px)}.mkhead h2{font-size:clamp(34px,10vw,52px)}.mksteps{grid-row:3;max-width:none}.mksteps li{padding:6px 0}.mksteps li:not(.on){display:none}.mkside{display:none}#mkPoster{left:50%;width:92vw}}
+
+/* basketball cursor */
+#cur{position:fixed;top:0;left:0;z-index:150;pointer-events:none;width:0;height:0}
+#cur .ball{position:absolute;left:-13px;top:-13px;width:26px;height:26px;transition:opacity .25s,transform .25s var(--ease)}
+#cur .ball svg{width:100%;height:100%;display:block}
+#cur .ring{position:absolute;left:-46px;top:-46px;width:92px;height:92px;border-radius:50%;border:1px solid var(--gold);background:rgba(11,10,8,.35);backdrop-filter:blur(3px);display:grid;place-items:center;transform:scale(.2);opacity:0;transition:transform .5s var(--ease),opacity .3s}
+#cur .ring span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--gold-hi);font-stretch:110%}
+#cur.big .ring{transform:scale(1);opacity:1}
+#cur.big .ball{opacity:0;transform:scale(.4)}
+#cur.hide{opacity:0}
+.rip{position:fixed;z-index:149;pointer-events:none;width:12px;height:12px;margin:-6px 0 0 -6px;border-radius:50%;border:1px solid var(--gold);animation:rip .7s var(--ease) forwards}
+@keyframes rip{to{transform:scale(6);opacity:0}}
+@media (hover:none),(pointer:coarse){#cur{display:none}}
+@media (hover:hover) and (pointer:fine){body.cur-on,body.cur-on a,body.cur-on button,body.cur-on [data-open]{cursor:none}}
+
+/* film grain */
+body::after{content:"";position:fixed;inset:-50%;z-index:140;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");animation:grain 1.2s steps(6) infinite}
+@keyframes grain{0%{transform:translate(0,0)}20%{transform:translate(-3%,2%)}40%{transform:translate(2%,-3%)}60%{transform:translate(-2%,-1%)}80%{transform:translate(3%,3%)}}
+
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}#pre{display:none}}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <linearGradient id="koGold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F2D497"/><stop offset=".48" stop-color="#C38F45"/><stop offset="1" stop-color="#E6BA72"/>
+    </linearGradient>
+    <path id="koPath" fill-rule="evenodd" pathLength="1" d="M 701 431.702 C 696.875 432.384, 684.579 433.393, 673.676 433.943 C 662.773 434.493, 647.698 435.628, 640.176 436.465 C 625.378 438.112, 589.073 439.983, 571.718 439.993 C 563.458 439.998, 559.483 440.488, 554.718 442.085 C 543.286 445.918, 541.131 448.091, 539.427 457.500 C 538.382 463.266, 538.024 1364.196, 539.046 1415.446 C 540.025 1464.573, 539.346 1461.266, 549.532 1466.500 C 555.254 1469.440, 555.683 1469.502, 570.935 1469.585 C 579.496 1469.632, 593.250 1470.223, 601.500 1470.899 C 609.750 1471.575, 626.850 1472.281, 639.500 1472.467 C 652.150 1472.653, 665.113 1473.327, 668.307 1473.964 C 679.610 1476.219, 702.785 1475.925, 708.549 1473.453 C 714.437 1470.928, 717.987 1471.058, 721.641 1473.932 C 724.925 1476.516, 726.512 1476.529, 729.727 1474 C 731.126 1472.900, 731.988 1472, 731.643 1472 C 731.298 1472, 731.736 1470.200, 732.617 1468 C 733.671 1465.365, 733.953 1463.063, 733.444 1461.250 C 733.020 1459.738, 732.722 1458.232, 732.784 1457.905 C 732.991 1456.810, 725.572 1453.195, 718.500 1450.945 C 685.036 1440.296, 646.629 1405.173, 637.642 1377 C 633.752 1364.806, 629.049 1339.976, 627.509 1323.500 C 627.149 1319.650, 626.244 1312.450, 625.498 1307.500 C 622.984 1290.832, 622.862 1282.888, 622.784 1130.500 C 622.699 963.573, 622.461 970.370, 628.505 966.851 C 630.158 965.889, 633.403 964.799, 635.717 964.429 C 639.658 963.799, 640.133 963.989, 643.212 967.417 C 645.021 969.431, 649.650 974.391, 653.500 978.439 C 657.350 982.488, 664.325 990.164, 669 995.497 C 673.675 1000.829, 680.168 1007.511, 683.428 1010.346 C 686.689 1013.181, 690.514 1017.314, 691.928 1019.531 C 696.868 1027.273, 712.591 1045.617, 727.044 1060.500 C 735.055 1068.750, 743.359 1077.750, 745.497 1080.500 C 747.634 1083.250, 750.985 1087.347, 752.942 1089.605 C 766.609 1105.374, 775.071 1114.676, 785.847 1125.779 C 792.637 1132.775, 799.930 1141.034, 802.054 1144.132 C 804.177 1147.229, 807.846 1151.175, 810.207 1152.900 C 812.568 1154.625, 816.525 1158.901, 819 1162.402 C 825.272 1171.274, 868.232 1218.612, 872.623 1221.488 C 873.804 1222.262, 877.597 1226.406, 881.054 1230.698 C 893.317 1245.925, 903.521 1257.244, 908.477 1261.119 C 913.509 1265.053, 922.199 1274.629, 928.265 1282.925 C 932.240 1288.361, 945.258 1303.920, 954 1313.684 C 957.575 1317.677, 963.875 1324.853, 968 1329.631 C 972.125 1334.410, 978.650 1341.548, 982.500 1345.495 C 986.350 1349.441, 994.225 1358.006, 1000 1364.528 C 1005.775 1371.050, 1013.905 1380.012, 1018.067 1384.443 C 1022.229 1388.874, 1026.705 1394.075, 1028.014 1396 C 1029.323 1397.925, 1035.208 1404.110, 1041.092 1409.745 C 1046.977 1415.379, 1054.808 1424.042, 1058.496 1428.995 C 1062.184 1433.948, 1065.607 1438, 1066.103 1438 C 1066.598 1438, 1069.064 1440.798, 1071.581 1444.217 C 1074.098 1447.637, 1079.489 1453.471, 1083.559 1457.182 C 1097.680 1470.054, 1100.968 1470.765, 1143.750 1470.211 C 1171.120 1469.856, 1176 1469.573, 1176 1468.337 C 1176 1467.537, 1176.427 1467.146, 1176.950 1467.469 C 1179.420 1468.996, 1181.183 1456.488, 1179.694 1448 C 1179.453 1446.625, 1179.198 1444.970, 1179.128 1444.321 C 1179.057 1443.673, 1178.396 1442.539, 1177.658 1441.801 C 1175.616 1439.758, 1174 1436.362, 1174 1434.110 C 1174 1429.711, 1166.608 1420.992, 1133.292 1386.097 C 1128.778 1381.369, 1123.716 1375.591, 1122.042 1373.258 C 1120.369 1370.925, 1118.089 1368.450, 1116.976 1367.758 C 1115.863 1367.066, 1112.600 1363.578, 1109.726 1360.006 C 1101.291 1349.525, 1096.861 1345, 1095.034 1345 C 1091.739 1345, 1086.089 1339.692, 1084.922 1335.500 C 1084.198 1332.897, 1081.541 1329.055, 1077.318 1324.500 C 1053.795 1299.131, 1040 1283.735, 1040 1282.852 C 1040 1282.418, 1037.597 1280.288, 1034.660 1278.118 C 1031.723 1275.948, 1027.859 1271.897, 1026.074 1269.115 C 1024.289 1266.333, 1021.354 1263.146, 1019.553 1262.033 C 1016.448 1260.114, 1014.955 1258.225, 1008.655 1248.250 C 1007.179 1245.912, 1005.603 1244, 1005.153 1244 C 1003.852 1244, 985.220 1224.793, 982.300 1220.442 C 980.845 1218.274, 973.310 1209.750, 965.557 1201.500 C 957.803 1193.250, 949.237 1183.800, 946.520 1180.500 C 943.803 1177.200, 936.163 1168.839, 929.540 1161.919 C 922.918 1155, 913.675 1144.926, 909 1139.532 C 897.363 1126.105, 877.926 1105.337, 875.228 1103.447 C 874.009 1102.593, 869.898 1098.167, 866.093 1093.611 C 862.288 1089.055, 854.522 1080.594, 848.837 1074.809 C 843.152 1069.024, 835.125 1060.062, 831 1054.895 C 826.875 1049.728, 818.971 1040.775, 813.435 1035 C 807.900 1029.225, 802.118 1022.950, 800.586 1021.055 C 799.054 1019.160, 788.846 1008.129, 777.901 996.542 C 766.955 984.954, 756.454 973.178, 754.564 970.372 C 752.675 967.566, 749.338 963.852, 747.150 962.119 C 744.961 960.385, 741.950 956.837, 740.459 954.234 C 738.967 951.630, 731.841 943.471, 724.623 936.101 C 703.480 914.515, 696.159 906.948, 684.500 894.631 C 672.306 881.749, 671 881.017, 659.800 880.788 C 653.077 880.651, 651.728 880.963, 646.669 883.818 C 639.830 887.678, 637.015 887.785, 631.247 884.405 C 623.974 880.143, 623.888 879.661, 622.862 837.500 C 621.490 781.146, 623.781 652.655, 626.507 633 C 627.308 627.225, 628.903 610.135, 630.051 595.021 C 632.391 564.222, 634.061 552.723, 637.678 542.500 C 639.040 538.650, 641.522 531, 643.193 525.500 C 644.864 520, 647.080 513.700, 648.117 511.500 C 649.980 507.547, 663.487 491, 664.850 491 C 665.238 491, 669.253 487.638, 673.771 483.529 C 678.290 479.420, 683.452 475.306, 685.243 474.387 C 687.035 473.467, 691.775 470.562, 695.777 467.931 C 700.238 464.998, 706.818 461.903, 712.777 459.934 C 718.125 458.167, 724.726 455.607, 727.446 454.244 L 732.391 451.768 728.946 448.905 C 727.051 447.331, 724.825 445.811, 724 445.529 C 723.175 445.246, 721.221 442.986, 719.658 440.507 C 718.095 438.028, 716.438 436, 715.976 436 C 715.513 436, 714.849 435.100, 714.500 434 C 714.151 432.900, 713.221 432, 712.433 432 C 711.645 432, 710.993 431.438, 710.985 430.750 C 710.973 429.835, 710.738 429.865, 710.106 430.863 C 709.631 431.613, 709.075 431.829, 708.871 431.344 C 708.664 430.852, 705.186 431.010, 701 431.702 M 1024.357 431.566 C 1022.628 432.310, 1020.257 434.465, 1019.089 436.356 C 1017.921 438.246, 1015.810 440.550, 1014.399 441.474 C 1008.540 445.313, 1007.019 456.399, 1011.952 459.312 C 1013.575 460.271, 1018.062 463.954, 1021.921 467.496 C 1025.781 471.038, 1030.678 475.034, 1032.802 476.375 C 1042.147 482.274, 1053 502.062, 1053 513.201 C 1053 526.086, 1034.782 558.607, 1018.101 575.500 C 1014.300 579.350, 1009.448 585.281, 1007.320 588.679 C 1004.723 592.827, 1000.946 596.834, 995.829 600.868 C 991.637 604.173, 988.048 607.257, 987.854 607.721 C 987.421 608.751, 969.111 626.101, 959.065 635 C 955.029 638.575, 944.926 646.602, 936.613 652.837 C 928.301 659.072, 919.025 666.547, 916 669.448 C 912.975 672.350, 908.467 676.085, 905.983 677.749 C 903.499 679.414, 899.224 682.765, 896.483 685.197 C 893.742 687.628, 889.732 690.690, 887.571 692.001 C 885.410 693.312, 881.135 696.459, 878.071 698.995 C 875.007 701.530, 870.475 704.997, 868 706.699 C 865.525 708.400, 860.350 712.437, 856.500 715.670 C 852.650 718.903, 847.925 722.625, 846 723.942 C 844.075 725.259, 838.853 729.748, 834.396 733.918 C 820.408 747.004, 813.709 752.558, 807 756.632 C 800.213 760.753, 783.376 773.596, 774.089 781.737 C 771.112 784.345, 766.789 787.834, 764.481 789.490 C 753.141 797.625, 726.395 823.920, 725.320 827.991 C 724.958 829.362, 725.426 833.412, 726.361 836.991 C 727.988 843.224, 728.563 844.008, 739.941 855.500 C 746.476 862.100, 753.585 870.051, 755.738 873.169 C 759.656 878.841, 761.379 880.693, 786.414 906.142 C 793.795 913.645, 801.525 922.195, 803.591 925.142 C 807.422 930.605, 817.661 941.904, 842.348 967.911 C 849.965 975.935, 858.965 986.067, 862.348 990.427 C 865.732 994.786, 871.667 1001.761, 875.538 1005.927 C 879.410 1010.092, 883.598 1015.170, 884.845 1017.210 C 886.093 1019.251, 889.325 1022.681, 892.027 1024.832 C 894.729 1026.984, 898.684 1030.939, 900.816 1033.622 C 902.949 1036.305, 910.275 1044.096, 917.097 1050.936 C 923.918 1057.776, 930.400 1064.830, 931.500 1066.611 C 932.600 1068.393, 940.025 1076.814, 948 1085.325 C 955.975 1093.836, 964.975 1103.629, 968 1107.088 C 971.025 1110.546, 977.325 1117.292, 982 1122.078 C 986.675 1126.865, 993.875 1134.696, 998 1139.480 C 1002.125 1144.265, 1009.550 1152.570, 1014.500 1157.935 C 1028.647 1173.269, 1037.207 1182.968, 1041 1187.964 C 1042.925 1190.499, 1050.286 1198.407, 1057.358 1205.537 C 1064.430 1212.666, 1071.386 1220.075, 1072.816 1222 C 1074.247 1223.925, 1077.735 1227.988, 1080.568 1231.029 C 1083.402 1234.070, 1086.416 1237.903, 1087.266 1239.547 C 1088.116 1241.191, 1091.526 1244.713, 1094.843 1247.374 C 1098.160 1250.035, 1102.095 1254.076, 1103.587 1256.356 C 1105.079 1258.635, 1108.820 1263.037, 1111.900 1266.139 C 1125.944 1280.280, 1130.989 1285.886, 1134.272 1291 C 1136.214 1294.025, 1143.762 1302.574, 1151.046 1309.999 C 1158.330 1317.423, 1166.702 1326.760, 1169.652 1330.749 C 1172.601 1334.737, 1175.391 1338, 1175.851 1338 C 1176.311 1338, 1182.184 1343.963, 1188.902 1351.250 C 1205.552 1369.312, 1217.607 1382.248, 1223.067 1387.914 C 1225.579 1390.521, 1228.954 1394.411, 1230.567 1396.559 C 1232.180 1398.707, 1236.425 1403.464, 1240 1407.131 C 1251.928 1419.364, 1259.129 1427.465, 1261.357 1431.158 C 1262.570 1433.170, 1266.699 1437.955, 1270.532 1441.791 C 1274.364 1445.627, 1280.305 1451.743, 1283.733 1455.383 C 1287.161 1459.022, 1290.593 1462, 1291.360 1462 C 1292.128 1462, 1293.373 1462.748, 1294.128 1463.663 C 1298.249 1468.655, 1307.973 1470.219, 1336.500 1470.480 C 1346.950 1470.576, 1360.450 1471.169, 1366.500 1471.797 C 1382.124 1473.421, 1402.952 1473.696, 1403.820 1472.291 C 1404.202 1471.673, 1405.862 1470.972, 1407.508 1470.735 C 1413.715 1469.841, 1421 1465.899, 1421 1463.434 C 1421 1462.102, 1421.754 1460.896, 1422.792 1460.566 C 1424.656 1459.974, 1428.422 1453, 1426.878 1453 C 1426.395 1453, 1426.053 1452.662, 1426.118 1452.250 C 1426.184 1451.838, 1426.149 1451.275, 1426.042 1451 C 1425.505 1449.622, 1424.807 1446.142, 1424.453 1443.077 C 1424.004 1439.196, 1423.512 1438.772, 1416.261 1436.023 C 1408.084 1432.922, 1397.422 1427.303, 1393.798 1424.185 C 1390.292 1421.168, 1371.595 1407.763, 1366.525 1404.632 C 1364.861 1403.605, 1361.217 1400.617, 1358.427 1397.992 C 1355.636 1395.368, 1351.423 1392.236, 1349.063 1391.032 C 1341.807 1387.331, 1261.140 1310.664, 1249.443 1296.353 C 1247.274 1293.699, 1239.936 1285.688, 1233.135 1278.549 C 1226.334 1271.410, 1218.622 1262.404, 1215.997 1258.535 C 1213.371 1254.666, 1208.693 1249.332, 1205.601 1246.683 C 1202.508 1244.034, 1197.563 1238.859, 1194.610 1235.183 C 1188.030 1226.991, 1170.774 1207.937, 1165.011 1202.500 C 1162.680 1200.300, 1158.911 1196.574, 1156.636 1194.219 C 1154.361 1191.864, 1147.775 1185.104, 1142 1179.197 C 1136.225 1173.290, 1128.064 1164.191, 1123.865 1158.978 C 1116.241 1149.515, 1101.857 1133.300, 1097.698 1129.481 C 1096.489 1128.371, 1093.491 1124.996, 1091.035 1121.981 C 1088.579 1118.967, 1083.976 1113.681, 1080.806 1110.236 C 1077.636 1106.791, 1073.278 1101.616, 1071.122 1098.736 C 1068.965 1095.856, 1060.968 1087.123, 1053.350 1079.329 C 1045.733 1071.536, 1035.675 1060.747, 1031 1055.355 C 1026.325 1049.962, 1020.429 1043.514, 1017.897 1041.025 C 1015.365 1038.536, 1012.267 1034.925, 1011.013 1033 C 1009.758 1031.075, 1005.755 1026.499, 1002.116 1022.832 C 998.477 1019.165, 991.526 1011.965, 986.668 1006.832 C 981.811 1001.699, 972.657 992.100, 966.325 985.500 C 959.994 978.900, 950.851 968.325, 946.008 962 C 941.164 955.675, 933.960 947.350, 929.998 943.500 C 926.036 939.650, 920.076 933.350, 916.755 929.500 C 913.433 925.650, 905.305 916.773, 898.692 909.774 C 892.079 902.774, 885.014 894.431, 882.991 891.232 C 880.969 888.034, 877.376 883.882, 875.006 882.005 C 872.636 880.128, 869.528 876.757, 868.099 874.514 C 864.226 868.435, 859.467 862.704, 849.846 852.530 C 841.582 843.792, 841.159 843.122, 840.483 837.707 C 839.489 829.756, 840.287 827.695, 846.255 822.800 C 849.139 820.435, 853.973 815.965, 856.999 812.867 C 860.024 809.770, 866.325 804.193, 871 800.476 C 875.675 796.758, 882.425 790.910, 886 787.480 C 889.575 784.050, 894.975 779.688, 898 777.788 C 901.025 775.887, 906.710 771.381, 910.634 767.776 C 914.558 764.170, 919.958 759.957, 922.634 758.414 C 925.310 756.870, 930.650 753.059, 934.500 749.945 C 938.350 746.831, 949.131 738.551, 958.458 731.545 C 975.445 718.786, 980.854 714.369, 992.342 703.876 C 995.729 700.782, 1000.001 697.489, 1001.835 696.556 C 1003.669 695.624, 1008.533 691.742, 1012.644 687.930 C 1016.755 684.119, 1020.523 681, 1021.017 681 C 1021.512 681, 1026.322 677.275, 1031.708 672.722 C 1037.094 668.169, 1043.750 662.886, 1046.500 660.983 C 1049.250 659.080, 1053.399 655.833, 1055.721 653.768 C 1058.043 651.702, 1062.318 648.484, 1065.221 646.616 C 1068.124 644.748, 1071.625 641.996, 1073 640.500 C 1074.375 639.004, 1079.282 635.280, 1083.904 632.225 C 1088.526 629.170, 1095.977 623.482, 1100.460 619.585 C 1104.943 615.688, 1113.036 609.125, 1118.443 605 C 1123.851 600.875, 1130.886 595.159, 1134.077 592.297 C 1137.269 589.436, 1142.142 585.948, 1144.906 584.548 C 1147.671 583.147, 1152.117 580.060, 1154.787 577.689 C 1157.457 575.317, 1162.985 571.541, 1167.071 569.296 C 1171.157 567.052, 1177.200 563.226, 1180.500 560.796 C 1183.800 558.365, 1189.875 554.751, 1194 552.764 C 1198.125 550.777, 1203.525 547.584, 1206 545.667 C 1208.475 543.750, 1214.775 539.610, 1220 536.467 C 1225.225 533.323, 1230.400 529.971, 1231.500 529.017 C 1232.600 528.063, 1237.524 525.133, 1242.442 522.505 C 1247.360 519.876, 1254.203 515.334, 1257.649 512.411 C 1265.491 505.758, 1267.674 504.636, 1277.829 502.044 C 1282.332 500.894, 1288.825 498.410, 1292.258 496.524 C 1295.691 494.638, 1301.459 491.982, 1305.075 490.622 C 1308.691 489.262, 1315.455 485.959, 1320.107 483.282 C 1324.759 480.605, 1335.076 475.990, 1343.033 473.025 C 1350.990 470.060, 1359.975 466.418, 1363 464.932 C 1366.025 463.446, 1370.075 461.928, 1372 461.560 C 1374.117 461.154, 1376.392 459.758, 1377.758 458.026 C 1380.017 455.164, 1380.017 455.164, 1377.758 451.624 C 1376.516 449.677, 1374.960 448.066, 1374.300 448.042 C 1373.640 448.019, 1372.740 447.430, 1372.300 446.732 C 1371.860 446.035, 1370.532 444.798, 1369.348 443.982 C 1368.165 443.167, 1365.083 440.722, 1362.500 438.549 L 1357.804 434.598 1332.180 434.263 C 1307.075 433.934, 1298.213 434.416, 1273 437.485 C 1239.351 441.581, 1158.139 441.611, 1136.414 437.536 C 1132.061 436.719, 1123.325 435.599, 1117 435.045 C 1110.675 434.492, 1100.100 433.398, 1093.500 432.614 C 1075.981 430.532, 1028.435 429.812, 1024.357 431.566 M 294.536 435.454 C 286.708 439.682, 283.190 445.352, 284.884 451.007 C 285.918 454.459, 286.603 454.965, 294.884 458.397 C 299.773 460.424, 306.637 463.871, 310.136 466.058 C 313.636 468.245, 318.691 471.264, 321.370 472.767 C 330.249 477.750, 341.593 486.660, 346.580 492.568 C 349.286 495.773, 353.233 499.994, 355.351 501.948 C 359.191 505.490, 366.908 514.952, 370.349 520.339 C 371.347 521.901, 372.389 525.726, 372.666 528.839 C 372.943 531.953, 373.783 536.140, 374.534 538.144 C 376.656 543.810, 379.806 562.222, 381.010 576 C 381.611 582.875, 382.595 591.425, 383.198 595 C 383.964 599.547, 384.552 701.402, 385.153 934 C 385.626 1116.875, 386.034 1270.697, 386.059 1275.828 C 386.084 1280.958, 385.204 1291.758, 384.103 1299.828 C 383.002 1307.897, 381.604 1319, 380.995 1324.500 C 377.281 1358.087, 367.679 1386.700, 353.696 1405.849 C 347.748 1413.996, 329.446 1431.261, 319.437 1438.168 C 314.521 1441.560, 308.396 1445.782, 305.824 1447.550 C 303.252 1449.318, 298.944 1451.294, 296.251 1451.940 C 291.863 1452.992, 291.017 1453.669, 288.127 1458.437 C 284.951 1463.678, 284.728 1465.690, 286.734 1471 C 287.045 1471.825, 287.467 1473.365, 287.670 1474.422 C 288.564 1479.070, 293.102 1480.210, 301.468 1477.887 C 303.651 1477.281, 315.126 1476.413, 326.968 1475.957 C 356.966 1474.803, 386.813 1473.236, 404.500 1471.886 C 412.750 1471.256, 427.008 1470.455, 436.185 1470.106 C 452.050 1469.503, 452.996 1469.352, 455.459 1467.039 C 458.897 1463.808, 464.677 1453.342, 465.331 1449.159 C 465.619 1447.322, 467.023 1443.429, 468.452 1440.508 C 470.391 1436.546, 471.005 1433.840, 470.871 1429.849 C 470.773 1426.907, 470.769 1214.125, 470.863 957 C 470.965 678.187, 470.667 488.239, 470.123 486.377 C 469.622 484.659, 468.438 482.072, 467.491 480.627 C 465.739 477.953, 466.059 467.952, 467.974 465.500 C 470.730 461.972, 470.143 460.010, 464.738 454.691 C 453.581 443.711, 443.530 440.550, 416.500 439.520 C 406.600 439.142, 391.975 437.925, 384 436.815 C 373.708 435.382, 362.535 434.701, 345.500 434.467 C 332.300 434.286, 319.076 433.657, 316.114 433.069 C 306.878 431.236, 301.179 431.866, 294.536 435.454 M 1638 958.460 C 1633.325 959.200, 1622.075 960.313, 1613 960.933 C 1594.978 962.165, 1577.543 965.302, 1563.426 969.854 C 1555.080 972.545, 1535.356 977.036, 1525.328 978.528 C 1523.033 978.870, 1519.030 980.578, 1516.432 982.325 C 1507.249 988.497, 1504.648 989.821, 1496.472 992.480 C 1491.928 993.958, 1484.451 997.380, 1479.856 1000.085 C 1475.261 1002.789, 1467.935 1006.189, 1463.576 1007.641 C 1458.245 1009.417, 1454.317 1011.489, 1451.576 1013.972 C 1449.334 1016.002, 1445.250 1019.185, 1442.500 1021.044 C 1435.391 1025.850, 1408.749 1048.439, 1407.223 1050.954 C 1406.521 1052.112, 1403.596 1054.565, 1400.723 1056.406 C 1394.877 1060.151, 1376.377 1078.136, 1371 1085.301 C 1369.075 1087.866, 1363.309 1095.485, 1358.186 1102.232 C 1353.064 1108.980, 1347.098 1116.975, 1344.929 1120 C 1342.759 1123.025, 1338.850 1128.364, 1336.242 1131.864 C 1330.115 1140.086, 1328.628 1142.817, 1325.005 1152.500 C 1323.359 1156.900, 1319.986 1163.633, 1317.511 1167.461 C 1315.036 1171.290, 1311.816 1177.590, 1310.356 1181.461 C 1307.762 1188.340, 1304.384 1196.385, 1298.162 1210.500 C 1281.968 1247.241, 1280.955 1252.198, 1287.124 1264.509 C 1290.372 1270.991, 1292.772 1274.307, 1296.431 1277.371 C 1299.143 1279.642, 1302.637 1282.850, 1304.196 1284.500 C 1317.828 1298.934, 1332.487 1313.312, 1337.174 1316.847 C 1342.849 1321.126, 1342.849 1321.126, 1350.893 1319.895 C 1358.938 1318.663, 1358.938 1318.663, 1361.009 1314.258 C 1362.148 1311.835, 1363.344 1308.423, 1363.667 1306.676 C 1363.991 1304.929, 1365.967 1300.350, 1368.058 1296.500 C 1370.781 1291.489, 1372.457 1286.517, 1373.958 1279 C 1375.153 1273.011, 1377.936 1263.989, 1380.436 1258 C 1382.846 1252.225, 1386.700 1241.425, 1388.999 1234 C 1391.723 1225.203, 1394.522 1218.410, 1397.032 1214.500 C 1399.151 1211.200, 1403.161 1203.614, 1405.944 1197.642 C 1408.727 1191.670, 1412.153 1185.419, 1413.557 1183.750 C 1414.962 1182.080, 1417.269 1178.417, 1418.684 1175.607 C 1420.100 1172.798, 1424.064 1166.225, 1427.494 1161 C 1430.925 1155.775, 1435.015 1149.088, 1436.584 1146.140 C 1438.462 1142.612, 1441.394 1139.275, 1445.160 1136.377 C 1448.308 1133.955, 1451.839 1130.631, 1453.007 1128.991 C 1454.175 1127.350, 1457.919 1124.018, 1461.326 1121.587 C 1464.734 1119.155, 1468.708 1115.834, 1470.158 1114.206 C 1471.609 1112.579, 1475.879 1109.078, 1479.648 1106.426 C 1483.416 1103.775, 1489.685 1098.619, 1493.577 1094.969 C 1497.470 1091.320, 1502.870 1086.831, 1505.577 1084.994 C 1508.285 1083.157, 1511.975 1080.385, 1513.778 1078.833 C 1517.924 1075.265, 1523.121 1072.676, 1529.500 1071.002 C 1532.250 1070.280, 1535.112 1069.213, 1535.861 1068.631 C 1536.609 1068.048, 1538.294 1067.428, 1539.606 1067.252 C 1540.917 1067.077, 1545.559 1065.207, 1549.921 1063.098 C 1558.526 1058.936, 1564.575 1057.194, 1581.500 1054.001 C 1587.550 1052.859, 1597.225 1050.608, 1603 1048.997 C 1613.420 1046.091, 1624.825 1044.166, 1644.995 1041.907 C 1659.304 1040.305, 1698.475 1041.342, 1722.500 1043.959 C 1732.950 1045.098, 1745.615 1046.434, 1750.643 1046.929 C 1757.493 1047.603, 1761.758 1048.691, 1767.643 1051.265 C 1771.965 1053.155, 1779.662 1055.887, 1784.749 1057.337 C 1789.836 1058.787, 1797.051 1061.511, 1800.783 1063.391 C 1804.515 1065.270, 1812.363 1068.856, 1818.224 1071.359 C 1830.976 1076.806, 1840.639 1081.607, 1841.432 1082.890 C 1841.750 1083.404, 1845.270 1085.614, 1849.255 1087.801 C 1853.240 1089.988, 1859.260 1094.241, 1862.634 1097.252 C 1866.008 1100.263, 1872.571 1105.023, 1877.220 1107.831 C 1888.937 1114.908, 1908.613 1135.692, 1919.516 1152.509 C 1923.792 1159.104, 1929.266 1166.703, 1931.680 1169.396 C 1940.257 1178.966, 1967.639 1234.210, 1971.529 1249.796 C 1972.943 1255.459, 1975.894 1263.850, 1978.087 1268.444 C 1980.924 1274.386, 1982.325 1278.917, 1982.945 1284.148 C 1984.063 1293.594, 1990.318 1325.164, 1994.010 1340 C 1999.564 1362.317, 2002.321 1384.219, 2003.452 1415 C 2004.629 1447.015, 2007.206 1488.573, 2008.136 1490.528 C 2008.666 1491.643, 2009.014 1500.418, 2008.908 1510.028 C 2008.802 1519.637, 2008.977 1530.838, 2009.297 1534.917 C 2009.696 1540.003, 2009.475 1543.146, 2008.596 1544.917 C 2007.891 1546.338, 2007.413 1548.850, 2007.535 1550.500 C 2007.657 1552.150, 2007.474 1553.950, 2007.128 1554.500 C 2006.783 1555.050, 2006.455 1557.750, 2006.401 1560.500 C 2006.346 1563.250, 2005.792 1568.425, 2005.170 1572 C 2004.548 1575.575, 2003.567 1589.075, 2002.990 1602 C 2001.443 1636.667, 1998.188 1659.854, 1992.926 1673.694 C 1992.407 1675.060, 1990.388 1685.026, 1988.440 1695.839 C 1986.401 1707.159, 1983.435 1719.757, 1981.449 1725.535 C 1979.552 1731.054, 1978 1736.682, 1978 1738.043 C 1978 1739.403, 1976.875 1742.629, 1975.500 1745.212 C 1974.125 1747.795, 1973 1751.014, 1973 1752.365 C 1973 1756.420, 1969.410 1766.680, 1966.218 1771.748 C 1964.572 1774.362, 1961.763 1780.550, 1959.977 1785.500 C 1956.516 1795.090, 1951.964 1804.775, 1948.837 1809.206 C 1947.786 1810.694, 1946.430 1813.394, 1945.824 1815.206 C 1944.723 1818.495, 1942.955 1821.191, 1934.484 1832.500 C 1932.012 1835.800, 1927.436 1842.100, 1924.314 1846.500 C 1918.739 1854.357, 1913.113 1861.122, 1901.815 1873.554 C 1898.688 1876.995, 1894.982 1882.075, 1893.580 1884.843 C 1890.875 1890.180, 1886.741 1893.843, 1881 1895.989 C 1876.065 1897.833, 1869.212 1902.237, 1856.675 1911.619 C 1840.460 1923.754, 1817.378 1935.635, 1795.985 1942.859 C 1786.368 1946.106, 1775.205 1949.963, 1771.178 1951.429 C 1763.574 1954.199, 1760.720 1954.654, 1730 1958.001 C 1686.849 1962.701, 1663.090 1962.484, 1611.500 1956.917 C 1597.507 1955.408, 1587.734 1953.258, 1579 1949.768 C 1569.624 1946.021, 1550.027 1940.083, 1535.150 1936.480 C 1526.155 1934.301, 1522.837 1932.995, 1519.154 1930.184 C 1514.621 1926.724, 1500.859 1917.414, 1494.619 1913.587 C 1492.903 1912.535, 1488.253 1909.686, 1484.284 1907.255 C 1480.315 1904.824, 1474.332 1900.394, 1470.989 1897.411 C 1467.645 1894.428, 1463.730 1891.214, 1462.287 1890.269 C 1460.845 1889.324, 1457.702 1885.884, 1455.303 1882.626 C 1452.904 1879.367, 1448.999 1874.991, 1446.624 1872.900 C 1441.458 1868.353, 1426.777 1849.693, 1419.457 1838.371 C 1416.566 1833.900, 1413.692 1829.928, 1413.070 1829.543 C 1412.448 1829.159, 1409.420 1823.817, 1406.343 1817.672 C 1403.265 1811.527, 1399.426 1804.989, 1397.810 1803.143 C 1394.097 1798.899, 1390.634 1791.566, 1387.875 1782.108 C 1386.587 1777.693, 1383.990 1772.190, 1381.426 1768.445 C 1376.880 1761.805, 1376.419 1760.535, 1372.548 1744 C 1371.196 1738.225, 1368.288 1728.031, 1366.086 1721.346 C 1363.614 1713.841, 1361.323 1704.086, 1360.099 1695.846 C 1354.364 1657.268, 1352.063 1645.289, 1348.679 1636.410 C 1347.096 1632.256, 1346.509 1622.555, 1343.965 1558.500 C 1342.158 1512.997, 1344.688 1515.500, 1300.500 1515.500 C 1252.926 1515.500, 1250.002 1516.667, 1249.997 1535.650 C 1249.994 1548.945, 1252.539 1582.934, 1254.554 1596.500 C 1255.371 1602, 1256.703 1612.350, 1257.516 1619.500 C 1262.351 1662.062, 1264.768 1677.673, 1268.974 1693.500 C 1270.582 1699.550, 1273.088 1710.350, 1274.544 1717.500 C 1278.525 1737.056, 1284.418 1757.477, 1288.842 1767.043 C 1291.014 1771.742, 1293.786 1778.942, 1295 1783.043 C 1296.214 1787.144, 1299.566 1795.675, 1302.449 1802 C 1305.332 1808.325, 1308.706 1816.072, 1309.947 1819.215 C 1311.188 1822.358, 1313.515 1826.997, 1315.117 1829.524 C 1318.839 1835.392, 1323.459 1844.544, 1326.086 1851.252 C 1327.217 1854.138, 1330.521 1859.650, 1333.429 1863.500 C 1339.667 1871.758, 1343.305 1878.011, 1345.028 1883.437 C 1345.743 1885.688, 1348.356 1889.452, 1351.132 1892.227 C 1353.801 1894.896, 1360.439 1902.575, 1365.882 1909.290 C 1371.324 1916.006, 1377.672 1923.300, 1379.986 1925.500 C 1382.301 1927.700, 1385.943 1932.051, 1388.080 1935.170 C 1390.217 1938.288, 1393.436 1941.874, 1395.233 1943.139 C 1399.507 1946.148, 1417.793 1962.004, 1421 1965.483 C 1422.375 1966.974, 1425.151 1969.041, 1427.168 1970.076 C 1429.186 1971.111, 1433.911 1974.582, 1437.668 1977.789 C 1441.426 1980.997, 1447.200 1985.111, 1450.500 1986.933 C 1453.800 1988.754, 1459.324 1992.245, 1462.775 1994.690 C 1466.226 1997.136, 1472.451 2000.686, 1476.608 2002.581 C 1480.766 2004.476, 1485.592 2007.093, 1487.334 2008.399 C 1493.700 2013.169, 1505.711 2018.020, 1527.500 2024.618 C 1531.900 2025.951, 1538.875 2028.136, 1543 2029.473 C 1558.603 2034.532, 1592.232 2040.699, 1634 2046.161 C 1650.250 2048.286, 1700.608 2047.725, 1726 2045.136 C 1756.667 2042.009, 1759.524 2041.425, 1764.008 2037.373 C 1766.062 2035.518, 1768.036 2034, 1768.395 2034 C 1768.754 2034, 1771.292 2032.457, 1774.033 2030.571 C 1779.557 2026.771, 1781.268 2026.462, 1802.333 2025.452 C 1810.789 2025.047, 1817.150 2024.186, 1820.984 2022.927 C 1824.184 2021.877, 1829.884 2020.322, 1833.651 2019.472 C 1837.418 2018.622, 1847.025 2014.849, 1855 2011.088 C 1862.975 2007.326, 1872.601 2002.990, 1876.391 2001.452 C 1880.181 1999.914, 1885.356 1997.163, 1887.891 1995.339 C 1890.426 1993.516, 1894.300 1991.059, 1896.500 1989.879 C 1901.142 1987.390, 1920.130 1974.207, 1926.878 1968.788 C 1929.420 1966.747, 1935.684 1961.848, 1940.797 1957.901 C 1948.959 1951.602, 1976.751 1923.748, 1984.601 1914 C 1986.151 1912.075, 1990.523 1907.186, 1994.316 1903.135 C 1998.803 1898.344, 2002.275 1893.452, 2004.252 1889.135 C 2005.924 1885.486, 2008.953 1880.475, 2010.984 1878 C 2013.015 1875.525, 2016.984 1869.225, 2019.805 1864 C 2022.626 1858.775, 2026.949 1851.817, 2029.412 1848.537 C 2031.876 1845.257, 2034.649 1840.532, 2035.576 1838.037 C 2036.503 1835.542, 2039.076 1829.900, 2041.293 1825.500 C 2048.750 1810.703, 2049.704 1808.529, 2052.490 1800 C 2054.018 1795.325, 2055.628 1791.039, 2056.069 1790.475 C 2056.510 1789.911, 2057.187 1787.072, 2057.572 1784.165 C 2058.093 1780.245, 2059.021 1778.133, 2061.169 1775.985 C 2065.135 1772.019, 2066.635 1767.997, 2069.479 1753.701 C 2070.823 1746.949, 2073.010 1738.965, 2074.340 1735.957 C 2078.668 1726.171, 2081.731 1714.779, 2084.009 1700 C 2085.238 1692.025, 2087.334 1681.675, 2088.668 1677 C 2092.703 1662.852, 2096.473 1641.369, 2097.618 1626 C 2097.843 1622.975, 2098.693 1611.950, 2099.506 1601.500 C 2104.934 1531.774, 2105.746 1494.410, 2102.734 1453 C 2101.834 1440.625, 2100.795 1422.175, 2100.424 1412 C 2099.900 1397.578, 2099.374 1392.729, 2098.037 1390 C 2097.094 1388.075, 2096.214 1384.084, 2096.081 1381.130 C 2095.948 1378.177, 2095.647 1374.802, 2095.412 1373.630 C 2095.177 1372.459, 2094.710 1369.250, 2094.375 1366.500 C 2094.039 1363.750, 2093.626 1361.259, 2093.455 1360.963 C 2093.285 1360.668, 2092.847 1355.493, 2092.483 1349.463 C 2092.118 1343.434, 2090.538 1332.875, 2088.971 1326 C 2085.867 1312.385, 2082.909 1296.360, 2080.494 1280.089 C 2079.645 1274.364, 2077.798 1266.939, 2076.390 1263.589 C 2074.982 1260.240, 2071.429 1250.471, 2068.495 1241.881 C 2065.561 1233.290, 2061.838 1223.615, 2060.221 1220.381 C 2058.604 1217.146, 2055.804 1210, 2054 1204.500 C 2052.196 1199, 2049.524 1192.025, 2048.063 1189 C 2042.498 1177.477, 2032.540 1159.299, 2029.168 1154.507 C 2027.235 1151.761, 2024.377 1146.696, 2022.815 1143.253 C 2018.675 1134.121, 2014.262 1127.106, 2009.446 1122 C 2007.112 1119.525, 2004.015 1115.121, 2002.566 1112.214 C 2001.116 1109.307, 1998.458 1105.257, 1996.659 1103.214 C 1994.860 1101.171, 1992.430 1098.239, 1991.258 1096.697 C 1988.136 1092.588, 1972.979 1076.104, 1969.552 1073.092 C 1967.930 1071.666, 1958.851 1063.300, 1949.376 1054.500 C 1927.978 1034.627, 1921.984 1029.689, 1914.229 1025.545 C 1910.860 1023.745, 1905.943 1020.489, 1903.302 1018.308 C 1895.120 1011.553, 1889.304 1008.021, 1880.546 1004.491 C 1875.907 1002.620, 1869.949 1000.004, 1867.306 998.676 C 1864.663 997.348, 1858.225 994.569, 1853 992.499 C 1847.775 990.430, 1840.800 987.371, 1837.500 985.702 C 1834.200 984.033, 1822.500 980.104, 1811.500 976.970 C 1800.500 973.836, 1787 969.917, 1781.500 968.260 C 1763.396 962.807, 1764.652 962.996, 1723 959.437 C 1697.489 957.256, 1649.113 956.701, 1638 958.460 M 2093.237 1107.833 C 2092.409 1108.358, 2091.806 1112.191, 2091.490 1118.937 C 2091.006 1129.240, 2091.006 1129.240, 2094.417 1133.887 C 2098.753 1139.793, 2110.828 1165.027, 2116.484 1180 C 2118.873 1186.325, 2122.395 1194.875, 2124.311 1199 C 2126.227 1203.125, 2128.945 1210.852, 2130.352 1216.172 C 2131.760 1221.491, 2134.956 1231.015, 2137.456 1237.335 C 2142.045 1248.939, 2145.924 1263.529, 2147.906 1276.645 C 2148.500 1280.574, 2150.992 1291.045, 2153.445 1299.913 C 2158.433 1317.943, 2162.192 1348.591, 2166.027 1402.500 C 2166.574 1410.200, 2167.667 1422.575, 2168.455 1430 C 2171.447 1458.202, 2173.132 1495.675, 2171.916 1507 C 2169.958 1525.243, 2169.009 1537.273, 2168.010 1556.500 C 2167.439 1567.500, 2166.330 1583.475, 2165.547 1592 C 2164.763 1600.525, 2163.838 1612.675, 2163.491 1619 C 2163.144 1625.325, 2162.243 1634.325, 2161.488 1639 C 2160.732 1643.675, 2159.609 1654.250, 2158.991 1662.500 C 2157.686 1679.934, 2156.128 1688.833, 2152.078 1701.997 C 2147.859 1715.714, 2147.418 1717.577, 2143.445 1738.525 C 2140.575 1753.652, 2139.026 1759.325, 2135.804 1766.500 C 2133.436 1771.772, 2131.194 1778.814, 2130.391 1783.500 C 2128.105 1796.835, 2124.964 1807.208, 2121.459 1813 C 2119.629 1816.025, 2116.504 1823.728, 2114.515 1830.117 C 2112.344 1837.089, 2109.113 1844.733, 2106.435 1849.235 C 2103.980 1853.360, 2100.857 1860.010, 2099.496 1864.012 C 2096.737 1872.123, 2093.274 1878.537, 2090.104 1881.406 C 2084.516 1886.463, 2089.077 1893.256, 2097.975 1893.131 C 2106.206 1893.015, 2108.514 1891.818, 2117.142 1883.188 C 2121.369 1878.960, 2125.654 1874.733, 2126.664 1873.796 C 2147.181 1854.754, 2167.104 1831.827, 2181.231 1811 C 2183.283 1807.975, 2186.782 1803.309, 2189.007 1800.630 C 2191.233 1797.952, 2194.906 1792.552, 2197.171 1788.630 C 2199.437 1784.709, 2203.258 1778.456, 2205.663 1774.735 C 2211.103 1766.319, 2221.534 1744.697, 2228.519 1727.358 C 2231.430 1720.130, 2234.485 1713.155, 2235.308 1711.858 C 2237.045 1709.119, 2240.966 1696.302, 2243.916 1683.726 C 2245.048 1678.900, 2247.309 1671.814, 2248.941 1667.979 C 2250.573 1664.144, 2252.200 1659.317, 2252.557 1657.253 C 2252.914 1655.189, 2254.315 1649.022, 2255.671 1643.548 C 2257.028 1638.075, 2258.545 1628.625, 2259.044 1622.548 C 2259.949 1611.526, 2263.683 1590.112, 2266.402 1580.346 C 2271.293 1562.782, 2273.514 1479.034, 2269.992 1445 C 2266.214 1408.506, 2264.776 1396.847, 2263.516 1392.500 C 2262.719 1389.750, 2261.370 1382.847, 2260.519 1377.159 C 2259.159 1368.074, 2256.326 1357.068, 2252.885 1347.500 C 2252.292 1345.850, 2251.168 1340.900, 2250.388 1336.500 C 2246.143 1312.562, 2235.751 1279.336, 2225.994 1258.500 C 2221.429 1248.752, 2207.238 1224.568, 2200.574 1215.181 C 2198.747 1212.606, 2196.320 1208.475, 2195.181 1206 C 2194.042 1203.525, 2191.848 1199.828, 2190.305 1197.784 C 2188.762 1195.740, 2184.826 1190.340, 2181.557 1185.784 C 2175.716 1177.642, 2168.470 1169.364, 2155.050 1155.500 C 2151.323 1151.650, 2147.023 1146.581, 2145.495 1144.236 C 2143.841 1141.698, 2140.425 1138.581, 2137.057 1136.534 C 2133.944 1134.644, 2130.520 1132.108, 2129.449 1130.900 C 2128.377 1129.693, 2124.125 1126.202, 2120 1123.143 C 2115.875 1120.085, 2111.701 1116.578, 2110.725 1115.352 C 2109.167 1113.393, 2097.249 1106.974, 2095.247 1107.015 C 2094.836 1107.024, 2093.931 1107.392, 2093.237 1107.833 M 1239.883 1114.775 C 1227.382 1125.289, 1211.047 1141.427, 1210.071 1144.226 C 1209.505 1145.851, 1207.942 1148.045, 1206.598 1149.102 C 1203.534 1151.511, 1202.817 1154.760, 1202.733 1166.602 C 1202.662 1176.501, 1204.610 1181.027, 1208.924 1180.985 C 1210.169 1180.973, 1210.220 1180.792, 1209.166 1180.124 C 1208.092 1179.443, 1208.141 1179.160, 1209.416 1178.671 C 1210.287 1178.336, 1211 1178.400, 1211 1178.813 C 1211 1179.226, 1212.125 1179.657, 1213.500 1179.771 C 1214.926 1179.889, 1216.007 1179.446, 1216.015 1178.739 C 1216.025 1177.928, 1216.365 1178.018, 1217 1179 C 1217.533 1179.825, 1217.976 1180, 1217.985 1179.389 C 1218.001 1178.213, 1224.074 1178.309, 1226.028 1179.517 C 1226.642 1179.897, 1229.592 1180.306, 1232.584 1180.426 C 1238.023 1180.644, 1238.023 1180.644, 1241.084 1174.166 C 1242.767 1170.604, 1245.074 1165.204, 1246.210 1162.168 C 1248.550 1155.915, 1250.776 1151.905, 1256.294 1144 C 1259.782 1139.004, 1260.083 1138.070, 1259.569 1133.810 C 1258.951 1128.684, 1255.782 1122.488, 1252.388 1119.766 C 1251.198 1118.812, 1249.913 1116.790, 1249.532 1115.271 C 1247.925 1108.868, 1246.965 1108.818, 1239.883 1114.775 M 1129 1514.978 C 1123.225 1515.405, 1113.325 1515.812, 1107 1515.881 C 1089.872 1516.069, 1087.254 1518.232, 1085.067 1534 C 1084.184 1540.372, 1084.165 1545.254, 1084.993 1553.500 C 1085.600 1559.550, 1086.527 1568.775, 1087.052 1574 C 1087.577 1579.225, 1088.490 1588.661, 1089.080 1594.969 C 1089.670 1601.277, 1090.327 1606.720, 1090.539 1607.063 C 1090.751 1607.406, 1091.402 1613.600, 1091.986 1620.827 C 1092.834 1631.323, 1093.631 1635.430, 1095.947 1641.234 C 1097.542 1645.230, 1100.244 1655.700, 1101.952 1664.500 C 1105.323 1681.871, 1108.727 1693.391, 1113.036 1702.015 C 1114.552 1705.049, 1117.698 1713.374, 1120.027 1720.515 C 1122.356 1727.657, 1125.501 1735.975, 1127.016 1739 C 1128.531 1742.025, 1131.175 1748.699, 1132.893 1753.831 C 1136.714 1765.248, 1137.217 1766.215, 1142.647 1772.599 C 1145.033 1775.403, 1148.991 1781.703, 1151.444 1786.599 C 1153.897 1791.494, 1157.726 1797.525, 1159.954 1800 C 1162.183 1802.475, 1165.546 1807.425, 1167.430 1811 C 1171.745 1819.192, 1180.128 1829.026, 1201 1850.384 C 1218.215 1867.999, 1219.138 1868.899, 1225.250 1874.048 C 1227.313 1875.786, 1229 1877.723, 1229 1878.354 C 1229.001 1878.984, 1231.447 1882.149, 1234.437 1885.388 C 1242.390 1894, 1246.322 1892.891, 1252.614 1880.260 C 1254.050 1877.379, 1255.624 1875.268, 1256.112 1875.569 C 1256.601 1875.871, 1257.056 1875.416, 1257.125 1874.559 C 1257.194 1873.702, 1257.344 1872.438, 1257.460 1871.750 C 1257.575 1871.063, 1256.612 1868.608, 1255.320 1866.296 C 1254.027 1863.984, 1251.389 1857.950, 1249.457 1852.888 C 1247.526 1847.826, 1243.657 1839.143, 1240.860 1833.592 C 1237.788 1827.497, 1234.097 1817.757, 1231.539 1809 C 1229.209 1801.025, 1225.049 1789.550, 1222.293 1783.500 C 1217.607 1773.211, 1214.064 1761.513, 1212.450 1751 C 1212.070 1748.525, 1210.475 1743.254, 1208.905 1739.288 C 1205.887 1731.662, 1201.936 1715.503, 1200.033 1703 C 1198.238 1691.209, 1194.980 1677.269, 1191.977 1668.526 C 1188.257 1657.693, 1187.389 1651.336, 1185.014 1617.500 C 1183.895 1601.550, 1182.534 1582.979, 1181.990 1576.231 C 1181.445 1569.483, 1181 1559.571, 1181 1554.205 C 1181 1543.520, 1179.527 1529.360, 1177.882 1524.233 C 1175.390 1516.466, 1156.703 1512.928, 1129 1514.978"/>
+  </defs>
+</svg>
+
+<div id="pre" aria-hidden="true">
+  <svg class="ko" viewBox="270 415 2015 1650"><use href="#koPath"/></svg>
+  <div class="pc cap dim"><span>KO Trends</span><span class="num" id="preN">000</span></div>
+  <i class="bar" id="preBar"></i>
+</div>
+<div id="cur" aria-hidden="true"><div class="ball"><svg viewBox="0 0 26 26"><g fill="none" stroke="#C99A52" stroke-width="1.4"><circle cx="13" cy="13" r="11.6" fill="rgba(201,154,82,.14)"/><path d="M13 1.4v23.2M1.4 13h23.2M5 4.6c3.4 2.4 4.6 5.4 4.6 8.4S8.4 19 5 21.4M21 4.6c-3.4 2.4-4.6 5.4-4.6 8.4s1.2 6 4.6 8.4"/></g></svg></div><div class="ring"><span id="curT">View</span></div></div>
+
+<header id="hd">
+  <div class="gut hrow">
+    <a class="brand" href="#top" data-top aria-label="KO Trends home"><svg class="ko" viewBox="270 415 2015 1650"><use href="#koPath"/></svg><b>KO TRENDS</b></a>
+    <nav class="hnav" id="hnav"></nav>
+    <div class="hact">
+      <button id="bSearch" class="ulink" data-t="search"></button>
+      <button id="bLang" class="ulink" aria-label="Language"></button>
+      <button id="bBag" class="ulink"><span data-t="bag"></span><span class="bagn num" id="bagN">0</span></button>
+      <button id="bMenu" class="menu-btn ulink" data-t="menu"></button>
+    </div>
+  </div>
+</header>
+<div id="menu"></div>
+
+<main id="store">
+  <section id="hero" class="gut">
+    <div class="glow" aria-hidden="true"></div>
+    <div class="htop">
+      <p data-t="heroL"></p>
+      <p class="r"><span class="cap" style="color:var(--bone)" data-t="heroR1"></span><br><span data-t="heroR2"></span></p>
+    </div>
+    <div class="wall" id="wall" aria-hidden="true"></div>
+    <div class="hveil" aria-hidden="true"></div>
+    <div class="hmono" id="hmono"><svg class="ko" viewBox="270 415 2015 1650" aria-hidden="true"><use href="#koPath"/></svg></div>
+    <div>
+      <h1 class="word" id="word" aria-label="KO Trends"></h1>
+      <div class="hbot">
+        <span class="scue cap dim"><i></i><span data-t="scroll"></span></span>
+        <a class="btn solid" href="#shop" data-go="shop" id="heroCta"><span data-t="shopDrop"></span><span class="arr">→</span></a>
+      </div>
+    </div>
+  </section>
+
+  <div class="mq" aria-hidden="true"><div class="tr" id="mq"></div></div>
+
+  <section id="statement" class="gut">
+    <div class="srow">
+      <span class="cap dim" data-t="stEyebrow"></span>
+      <p class="stmt" id="stmt"></p>
+    </div>
+  </section>
+
+  <section id="make">
+    <canvas id="mk" aria-label="3D sneaker"></canvas>
+    <img id="mkPoster" src="model/poster.webp" alt="KO Edition sneaker" hidden>
+    <div class="mkui gut">
+      <div class="mkhead">
+        <span class="cap dim" data-t="mkEyebrow"></span>
+        <h2><span data-t="mkT1"></span> <span class="it" data-t="mkT2"></span></h2>
+      </div>
+      <ol class="mksteps" id="mksteps">
+        <li><span class="num">01</span><div><b data-t="m1t"></b><p data-t="m1d"></p></div></li>
+        <li><span class="num">02</span><div><b data-t="m2t"></b><p data-t="m2d"></p></div></li>
+        <li><span class="num">03</span><div><b data-t="m3t"></b><p data-t="m3d"></p></div></li>
+        <li><span class="num">04</span><div><b data-t="m4t"></b><p data-t="m4d"></p></div></li>
+        <li><span class="num">05</span><div><b data-t="m5t"></b><p data-t="m5d"></p></div></li>
+      </ol>
+      <div class="mkside">
+        <div class="mkbig num" id="mkBig">01</div>
+        <div class="mkcw" id="mkcw"><span class="cap dim" data-t="mkColour"></span><b id="mkCwName">Sketch</b></div>
+      </div>
+      <div class="mkbar"><i id="mkBar"></i></div>
+    </div>
+  </section>
+
+  <section id="drop">
+    <div class="gut">
+      <div class="dhead"><h2 data-t="dropT"></h2><span class="cap num" id="dCount">01 / 10</span></div>
+    </div>
+    <div class="dtrack" id="dtrack"></div>
+    <div class="gut"><div class="dprog"><i id="dprog"></i></div></div>
+  </section>
+
+  <section id="cats" class="gut">
+    <div class="shead" style="margin:0"><span class="cap dim" data-t="catEyebrow"></span><span class="cap dim num" id="catTotal"></span></div>
+    <div class="clist" id="clist"></div>
+  </section>
+  <div id="cfloat"><img id="cfImg" src="imgf/p15.webp" alt=""></div>
+
+  <section id="shop" class="gut">
+    <div class="shead"><h2 id="shopT"></h2><span class="cap dim num" id="shopN"></span></div>
+    <div class="tabs" id="tabs"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section id="legends" class="gut">
+    <div class="lg">
+      <div class="stick">
+        <span class="cap dim" data-t="lgEyebrow"></span>
+        <h2><span data-t="lgT1"></span><span class="it" data-t="lgT2"></span></h2>
+        <p data-t="lgP"></p>
+        <button class="btn" data-cat="jerseys"><span data-t="lgBtn"></span><span class="arr">→</span></button>
+      </div>
+      <div class="lcol" id="lcol"></div>
+    </div>
+  </section>
+
+  <section id="deliver">
+    <svg id="dsvg" viewBox="0 -60 1280 800" preserveAspectRatio="xMidYMax slice" aria-label="Delivery from the KO store to your door">
+      <g id="stars"></g>
+      <path id="mtn" class="lnd" d=""/>
+      <g id="store">
+        <rect class="ln" x="90" y="380" width="270" height="260" fill="#110f0c"/>
+        <path class="ln" d="M70,380 L380,380 L360,330 L90,330 Z" fill="#14110d"/>
+        <use href="#koPath" fill="url(#koGold)" transform="translate(178.8,239.5) scale(.036)"/>
+        <text class="sign" x="225" y="363" text-anchor="middle">KO TRENDS</text>
+        <rect class="ln" x="115" y="420" width="140" height="110" fill="rgba(201,154,82,.12)"/>
+        <path class="lnd" d="M125,470 h120 M125,500 h120"/>
+        <path d="M140,466 q14,-12 30,-4 l18,4 h-48z M192,466 q14,-12 30,-4 l14,4 h-44z M150,496 q14,-12 30,-4 l18,4 h-48z" fill="var(--gold)" opacity=".8"/>
+        <rect class="ln" x="285" y="520" width="55" height="120"/>
+        <circle cx="330" cy="582" r="3" fill="var(--gold)"/>
+      </g>
+      <g id="house">
+        <path class="ln" d="M2030,470 L2165,355 L2300,470" />
+        <rect class="ln" x="2052" y="458" width="226" height="182" fill="#110f0c"/>
+        <rect class="ln win" x="2078" y="490" width="46" height="42" fill="rgba(201,154,82,.18)"/>
+        <rect class="ln win" x="2206" y="490" width="46" height="42" fill="rgba(201,154,82,.18)"/>
+        <rect class="ln" x="2140" y="548" width="50" height="92"/>
+        <circle cx="2181" cy="596" r="3" fill="var(--gold)"/>
+        <path class="ln" d="M2128,640 h74"/>
+      </g>
+      <rect x="-100" y="640" width="2600" height="900" fill="#0d0b09"/>
+      <path id="road" class="road" d="M40 640 L380 640 C540 640 580 560 740 560 S960 640 1120 640 S1340 530 1500 545 S1740 640 1900 640 L2380 640"/>
+      <path id="roadG" class="roadg" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" d="M40 640 L380 640 C540 640 580 560 740 560 S960 640 1120 640 S1340 530 1500 545 S1740 640 1900 640 L2380 640"/>
+      <g id="cps"></g>
+      <g id="dropOff" transform="translate(2112,640)">
+        <g id="box" style="opacity:0">
+          <image id="jer" href="cut/c25.webp" x="-80" y="-176" width="160" height="160" opacity="0"/>
+          <rect x="-28" y="-44" width="56" height="44" fill="#B98A4C" stroke="#0B0A08" stroke-width="2"/>
+          <path d="M0,-44 v44" stroke="#E9C78A" stroke-width="5"/>
+          <rect id="flapL" x="-28" y="-49" width="28" height="5" fill="#A87A40" stroke="#0B0A08" stroke-width="1.5"/>
+          <rect id="flapR" x="0" y="-49" width="28" height="5" fill="#A87A40" stroke="#0B0A08" stroke-width="1.5"/>
+        </g>
+      </g>
+      <g id="van" transform="translate(340,640)">
+        <path d="M-102,-24 L-102,-122 Q-102,-132 -92,-132 L48,-132 Q56,-132 60,-126 L86,-88 L106,-80 Q114,-77 114,-68 L114,-24 Z" fill="#16130f" stroke="var(--bone)" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M52,-124 L78,-88 L52,-88 Z" fill="rgba(236,228,212,.1)" stroke="var(--bone)" stroke-width="1.5"/>
+        <path d="M-102,-58 L114,-58" stroke="var(--gold)" stroke-width="2"/>
+        <use href="#koPath" fill="url(#koGold)" transform="translate(-100.5,-136.9) scale(.03)"/>
+        <text class="vt" x="-18" y="-95">DELIVERY</text>
+        <circle cx="110" cy="-48" r="4" fill="var(--gold-hi)"/>
+        <g transform="translate(-60,-22)"><g class="whin"><circle r="21" fill="#0B0A08" stroke="var(--bone)" stroke-width="2"/><circle r="7" fill="none" stroke="var(--gold)" stroke-width="2"/><path d="M-21,0 H21 M0,-21 V21" stroke="rgba(236,228,212,.35)" stroke-width="1.5"/></g></g>
+        <g transform="translate(70,-22)"><g class="whin"><circle r="21" fill="#0B0A08" stroke="var(--bone)" stroke-width="2"/><circle r="7" fill="none" stroke="var(--gold)" stroke-width="2"/><path d="M-21,0 H21 M0,-21 V21" stroke="rgba(236,228,212,.35)" stroke-width="1.5"/></g></g>
+      </g>
+      <g id="doneT" style="opacity:0"><text class="done" x="2085" y="250" text-anchor="middle" data-t="dDone"></text><text class="done2" x="2085" y="296" text-anchor="middle" data-t="dDone2"></text></g>
+    </svg>
+    <div class="dvh gut"><div><span class="cap dim" data-t="dEyebrow"></span><h2><span data-t="dT1"></span><br><span class="it" data-t="dT2"></span></h2></div></div>
+    <div class="dsteps gut" id="dsteps">
+      <div><span class="cap num">01</span><b data-t="d1t"></b><span data-t="d1d"></span></div>
+      <div><span class="cap num">02</span><b data-t="d2t"></b><span data-t="d2d"></span></div>
+      <div><span class="cap num">03</span><b data-t="d3t"></b><span data-t="d3d"></span></div>
+      <div><span class="cap num">04</span><b data-t="d4t"></b><span data-t="d4d"></span></div>
+    </div>
+  </section>
+</main>
+
+<div id="admin" hidden></div>
+
+<footer class="gut">
+  <div class="fcols">
+    <div>
+      <p class="fbig"><span data-t="fT1"></span><br><span class="it" style="color:var(--gold)" data-t="fT2"></span></p>
+      <a class="btn" href="https://wa.me/963957381807" target="_blank" rel="noopener"><span>WhatsApp</span><span class="arr">→</span></a>
+    </div>
+    <div><h5 class="cap" data-t="shop"></h5><ul id="fcats"></ul></div>
+    <div><h5 class="cap" data-t="help"></h5><ul><li data-t="h1"></li><li data-t="h2"></li><li data-t="h3"></li><li data-t="h4"></li><li><button id="bOwner" class="ulink" data-t="owner"></button></li></ul></div>
+    <div><h5 class="cap" data-t="contact"></h5><ul>
+      <li class="copyn"><span class="num ltr">+963 957 381 807</span><button class="cap ulink dim" data-copy="+963957381807" data-t="copy"></button></li>
+      <li><a class="ulink" href="https://www.instagram.com/ko.trends/" target="_blank" rel="noopener">Instagram @ko.trends</a></li>
+      <li class="dim" data-t="ship"></li>
+    </ul></div>
+  </div>
+  <div class="fmono"><svg class="ko" viewBox="270 415 2015 1650" aria-hidden="true"><use href="#koPath"/></svg></div>
+  <div class="legal">
+    <span>© 2026 KO Trends. <span data-t="rights"></span></span>
+    <span><span data-t="madeBy"></span> <b>Kamel Nassif</b> · Solunera 2026</span>
+    <span style="flex-basis:100%;font-size:11px;opacity:.7">3D sneaker model: Shopify, CC BY 4.0</span>
+  </div>
+</footer>
+
+<div class="veil" id="veil"></div>
+<aside class="side" id="side" aria-label="Panel" data-lenis-prevent></aside>
+<div id="search" data-lenis-prevent>
+  <div class="stop"><span class="cap dim" data-t="search"></span><button class="close ulink" data-close data-t="close"></button></div>
+  <input id="sq" autocomplete="off" aria-label="Search">
+  <div class="sugg" id="sugg"></div>
+  <div class="sgrid" id="sres"></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="/vendor/gsap.min.js"></script>
+<script src="/vendor/ScrollTrigger.min.js"></script>
+<script src="/vendor/MotionPathPlugin.min.js"></script>
+<script src="/vendor/lenis.min.js"></script>
+<script>
+(()=>{
+const WA="963957381807";
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const ls={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const money=n=>"$"+(Math.round(n*100)/100).toLocaleString("en-US",{maximumFractionDigits:2});
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pad=n=>String(n).padStart(2,"0");
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const FINE=matchMedia("(hover:hover) and (pointer:fine)").matches;
+
+const SHOE=["40","41","42","43","44","45","46"],APP=["S","M","L","XL","XXL"];
+const CATS=[
+ {id:"sneakers",en:"Sneakers",ar:"سنيكرز",img:"imgf/p15.webp"},
+ {id:"hoops",en:"Basketball",ar:"كرة السلة",img:"imgf/p13.webp"},
+ {id:"jerseys",en:"Jerseys",ar:"قمصان NBA",img:"imgf/p34.webp"},
+ {id:"football",en:"Football",ar:"كرة القدم",img:"imgf/p11.webp"},
+ {id:"tees",en:"Tees",ar:"تيشيرتات",img:"imgf/p32.webp"},
+ {id:"bottoms",en:"Shorts & Pants",ar:"شورتات وبناطيل",img:"imgf/p5.webp"},
+ {id:"slides",en:"Slides",ar:"مشايات",img:"imgf/p2.webp"}
+];
+const P=(id,name,brand,cat,price,img,o={})=>({id,name,brand,cat,price,img:[img,...(o.alt||[])],cut:o.cut||"",was:o.was||0,sizes:o.sizes||(["sneakers","hoops","slides"].includes(cat)?SHOE:APP),out:o.out||[],tag:o.tag||"",stock:o.stock??12,color:o.color||"",feat:o.feat||0,added:o.added||0,desc:o.desc||"",hidden:false});
+const DEFAULTS=[
+ P("nb530","New Balance 530","New Balance","sneakers",70,"imgf/p16.webp",{cut:"cut/c16.webp",tag:"new",feat:10,added:30,out:["45","46"],color:"White / Pink / Lemon",desc:"Retro runner with ABZORB cushioning and a soft pastel colourway."}),
+ P("kd17","Nike KD17 Sunrise","Nike","hoops",115,"imgf/p3.webp",{alt:["imgf/p18.webp"],cut:"cut/c3.webp",was:135,feat:10,added:30,out:["40"],color:"Orange / Black",desc:"Full-length Zoom Air with a sunset fade. Built for quick cuts."}),
+ P("j4-pine","Jordan 4 Retro Pine Green","Jordan","sneakers",95,"imgf/p14.webp",{feat:9,added:24,stock:3,color:"White / Pine Green",desc:"Tumbled leather, visible Air and a gum outsole. Low stock in this run."}),
+ P("curry-30","Warriors Curry 30 Classic","Nike","jerseys",55,"imgf/p25.webp",{cut:"cut/c25.webp",tag:"new",feat:9,added:33,color:"White / Royal",desc:"Classic Edition swingman. Dri-FIT mesh, heat-pressed numbers."}),
+ P("campus-green","Adidas Campus 00s","Adidas","sneakers",70,"imgf/p15.webp",{feat:9,added:26,out:["46"],color:"Green / Cloud White",desc:"Chunky suede, fat laces, gum sole."}),
+ P("samba","Adidas Samba OG","Adidas","sneakers",68,"imgf/p17.webp",{cut:"cut/c17.webp",tag:"new",feat:8,added:27,color:"White / Coral",desc:"Terrace classic with soft leather, suede T-toe and a gum sole."}),
+ P("jordan-pink","Jordan Basketball Low","Jordan","hoops",99,"imgf/p19.webp",{cut:"cut/c19.webp",feat:8,added:30,stock:4,color:"Pink / White",desc:"Court shoe with a translucent pink outsole and responsive foam."}),
+ P("messi","Messi Legacy Jersey","Nike","football",38,"imgf/p11.webp",{cut:"cut/c11.webp",tag:"new",feat:8,added:28,color:"Multi",desc:"Barcelona, PSG, Inter Miami and Argentina in one shirt."}),
+ P("af1-sup","Air Force 1 Low x Supreme","Nike","sneakers",75,"imgf/p23.webp",{cut:"cut/c23.webp",was:85,feat:7,added:22,color:"White / Red",desc:"Box logo on the heel, red laces in the box."}),
+ P("crocs","Crocs Bayaband Lakers Set","Crocs","slides",45,"imgf/p2.webp",{cut:"cut/c2.webp",feat:7,added:31,sizes:["40","41","42","43","44","45"],color:"Black / White",desc:"Comfort clog loaded with purple and gold Jibbitz. Charms included."}),
+ P("tatum","Jordan Tatum 1","Jordan","hoops",95,"imgf/p13.webp",{feat:6,added:23,color:"Black / Red / Gum",desc:"Light foam and a cutaway midsole for guards who live in the lane."}),
+ P("af1","Air Force 1 '07 Triple White","Nike","sneakers",65,"imgf/p4.webp",{alt:["imgf/p22.webp"],feat:9,added:20,color:"White",desc:"Clean leather and Air cushioning. Goes with everything."}),
+ P("irving","Mavericks Irving 11","Jordan","jerseys",55,"imgf/p34.webp",{feat:7,added:32,color:"Navy",desc:"Statement Edition with the Jumpman on the chest."}),
+ P("young","Hawks Young 11 City Edition","Nike","jerseys",55,"imgf/p26.webp",{feat:6,added:29,color:"Black / Sky Blue",desc:"City Edition jersey with gold numbers."}),
+ P("cavs-23","Cavaliers James 23 Shooting Shirt","Adidas","jerseys",32,"imgf/p27.webp",{feat:4,added:15,color:"Black / Wine / Gold",desc:"Throwback short-sleeve shooting shirt."}),
+ P("rm-home","Real Madrid Home 24/25","Adidas","football",40,"imgf/p8.webp",{was:48,feat:6,added:28,color:"White",desc:"Home kit with the crest and three-stripe shoulders."}),
+ P("ronaldo","Ronaldo Legacy Jersey","Adidas","football",38,"imgf/p12.webp",{tag:"new",feat:7,added:28,color:"Multi",desc:"Sporting, United, Real, Juventus, Al Nassr and Portugal in one design."}),
+ P("campus-black","Adidas Campus 00s Core Black","Adidas","sneakers",72,"imgf/p21.webp",{feat:6,added:21,color:"Black / White",desc:"Black suede that works with baggy denim and everything else."}),
+ P("fuchsia","Nike Basketball Fuchsia","Nike","hoops",105,"imgf/p30.webp",{feat:5,added:30,color:"Fuchsia / Lemon",desc:"Speckled knit upper and a sculpted midsole."}),
+ P("offcourt","Nike Offcourt Slide","Nike","slides",35,"imgf/p0.webp",{feat:4,added:35,color:"Olive / Lime",desc:"Soft foam footbed and padded strap."}),
+ P("ess-shorts","Essentials Sweatshorts","Fear of God","bottoms",38,"imgf/p5.webp",{feat:6,added:35,color:"Olive",desc:"Heavy fleece, elastic waist, arched logo on the leg."}),
+ P("tiedye","Jordan Diamond Shorts Tie-Dye","Jordan","bottoms",35,"imgf/p7.webp",{was:42,feat:5,added:19,color:"Blue Tie-Dye",desc:"Dri-FIT mesh with diamond side panels."}),
+ P("kobe-shorts","Mamba Mesh Shorts","Nike","bottoms",34,"imgf/p33.webp",{feat:5,added:12,color:"Mint / Navy",desc:"Light mesh with a fade to navy."}),
+ P("wideleg","Nike Club Wide-Leg Fleece","Nike","bottoms",42,"imgf/p10.webp",{feat:6,added:18,color:"Black",desc:"Relaxed wide leg in brushed fleece."}),
+ P("pro-tights","Nike Pro 3/4 Tights","Nike","bottoms",30,"imgf/p28.webp",{feat:2,added:10,color:"White",desc:"Compression fit for game day."}),
+ P("adidas-3s","Adidas 3-Stripes Tee","Adidas","tees",28,"imgf/p6.webp",{feat:5,added:17,color:"Black / White",desc:"Soft cotton, trefoil on the chest, stripes down the sleeves."}),
+ P("nike-tee","Nike Sportswear Logo Tee","Nike","tees",25,"imgf/p9.webp",{feat:5,added:18,color:"Black, White, Teal, Navy",desc:"Everyday cotton tee with an embroidered logo."}),
+ P("usa-6","USA Basketball 6 Tee","Nike","tees",30,"imgf/p32.webp",{feat:5,added:11,color:"White",desc:"Team USA Dri-FIT tee."}),
+ P("usa-curry","USA Basketball Curry 4 Tee","Nike","tees",30,"imgf/p29.webp",{cut:"cut/c29.webp",feat:5,added:11,color:"Navy",desc:"Name and number on the back, USA across the chest."}),
+ P("spurs","Spurs Just Do It Tee","Nike","tees",27,"imgf/p31.webp",{feat:3,added:14,color:"Heather Grey",desc:"NBA collection tee with a court-line graphic."}),
+ P("tank","Nike Dri-FIT Training Tank","Nike","tees",22,"imgf/p24.webp",{feat:3,added:13,color:"Teal",desc:"Breathable tank for training and pickup runs."})
+];
+const DROP=["kd17","nb530","jordan-pink","samba","curry-30","messi","af1-sup","crocs","usa-curry"];
+const LEGENDS=["curry-30","irving","young","cavs-23"];
+
+const T={
+en:{search:"Search",bag:"Bag",menu:"Menu",close:"Close",heroL:"Premium streetwear, NBA and sports gear. Picked by hand, checked before it ships.",heroR1:"Drop 25",heroR2:"Now in store",scroll:"Scroll",shopDrop:"Shop the drop",stEyebrow:"The store",stmt:"Not every pair makes it onto our shelves. We pick each piece, check it ~by hand~, and bring it to your door.",view:"View",sending:"Sending…",netErr:"We could not reach the store. Check your connection and try again.",mkEyebrow:"The making",mkT1:"From sketch",mkT2:"to street.",mkColour:"Now showing",m1t:"Sketch",m1d:"Every pair starts as lines on paper.",m2t:"Form",m2d:"The last gives it shape and volume.",m3t:"Material",m3d:"Knit mesh, overlays and a foam sole go on.",m4t:"Colourways",m4d:"Street, Beach, Midnight. Pick your mood.",m5t:"KO Edition",m5d:"Black and gold. Checked, boxed, ready.",skipNote:"Not sure of your size? Add it anyway, we confirm it with you on WhatsApp.",sfQ:"Don't know your size?",sfMale:"Male",sfFemale:"Female",sfH:"Height (cm)",sfW:"Weight (kg)",sfF:"Foot length in cm, optional",sfGo:"Find my size",sfRes:"Your size: {s}. We selected it for you.",sfNeedH:"Add your height, or your foot length.",sfNeedHW:"Add your height and weight.",sfMin:"40 is our smallest size in this model.",sfMax:"46 is our biggest size in this model.",sfNear:"Your exact size is sold out, this is the closest one.",tbc:"Size to confirm",optional:"optional",addrNote:"Skip it and we ask you on WhatsApp.",dropT:"The Drop",catEyebrow:"Categories",lgEyebrow:"Jerseys",lgT1:"NBA jerseys",lgT2:"in store now.",lgP:"Swingman jerseys and shooting shirts. Classic, City and Statement editions, sizes S to XXL.",lgBtn:"Shop jerseys",shopAll:"Shop all",all:"All",items:"{n} pieces",sale:"Sale",sortF:"Featured",sortN:"Newest",sortL:"Price low",sortH:"Price high",quick:"Quick view",soldOut:"Sold out",left:"{n} left",newT:"New",empty:"Nothing here yet.",s1t:"Barcode verified",s1d:"Every pair is checked against its verification barcode.",s2t:"Cash on delivery",s2d:"Pay the driver when your order arrives.",s3t:"Lebanon & Syria",s3d:"Delivery in 1 to 3 days. Free on orders over $100.",s4t:"3-day exchange",s4d:"Wrong size? Message us and we swap it.",fT1:"Questions?",fT2:"Message the store.",shop:"Shop",help:"Help",contact:"Contact",h1:"Delivery 1 to 3 days",h2:"Cash on delivery",h3:"3-day size exchange",h4:"Size finder on every product",owner:"Owner panel",copy:"Copy",ship:"Lebanon & Syria delivery",rights:"All rights reserved.",madeBy:"Designed and developed by",size:"Size",guide:"Size guide",colour:"Colour",addBag:"Add to bag",pick:"Select a size",orderWa:"Order on WhatsApp",ship2:"Delivery and payment",ship2d:"Lebanon $4, Syria $5, free over $100. Cash on delivery, Whish Money or Sham Cash.",exch:"Exchange",exchd:"Message us within 3 days and we swap the size, unworn with tags.",verified:"Comes with verification barcode",also:"Pairs well with",added:"Added to bag",yourBag:"Your bag",emptyBag:"Your bag is empty.",keep:"Continue shopping",sub:"Subtotal",disc:"Discount",del:"Delivery",atCheckout:"Next step",total:"Total",checkout:"Checkout",freeLeft:"{x} away from free delivery",freeYes:"Free delivery unlocked",bundle:"3 pieces or more: 10% off",promo:"Promo code",apply:"Apply",codeOk:"Code applied",codeBad:"Code not valid",remove:"Remove",details:"Details",payment:"Payment",name:"Full name",phone:"Phone (WhatsApp)",country:"Country",city:"City",addr:"Address",notes:"Notes for the driver",place:"Place order",cod:"Cash on delivery",codd:"Pay the driver",whish:"Whish Money",sham:"Sham Cash",sendd:"We send the details",req:"Required",badPhone:"At least 8 digits",lebanon:"Lebanon",syria:"Syria",doneT:"Order placed",doneD:"Order {id} is saved. Send it on WhatsApp and we confirm your delivery time.",sendWa:"Send on WhatsApp",copyMsg:"Copy message",copied:"Copied",typeHere:"Type a name or brand",popular:"Try",noRes:"No matches.",bT1:"Built layer",bT2:"by layer.",bP:"Outsole, Zoom Air, upper, laces. Scroll and watch the KD17 come together.",bBtn:"Shop the KD17",bs1:"Outline",bs2:"Layers",bs3:"Laced",l1t:"Collar & tongue",l1d:"Padded heel lock",l2t:"Upper",l2d:"Knit mesh with a TPU cage",l3t:"Midsole",l3d:"Zoom Air cushioning",l4t:"Outsole",l4d:"Grip rubber for indoor courts",dEyebrow:"Delivery",dT1:"From our store",dT2:"to your door.",d1t:"Order on WhatsApp",d1d:"Or check out right here",d2t:"Checked and packed",d2d:"Barcode verified in store",d3t:"On the road",d3d:"1 to 3 days, Lebanon and Syria",d4t:"Pay at the door",d4d:"Cash on delivery",dDone:"Delivered.",dDone2:"Open it up."},
+ar:{search:"بحث",bag:"السلة",menu:"القائمة",close:"إغلاق",heroL:"ستريت وير فاخر وملابس NBA ورياضة. منختار كل قطعة بإيدنا ومنفحصها قبل ما تنبعت.",heroR1:"الدروب 25",heroR2:"متوفر بالمحل",scroll:"انزل",shopDrop:"تسوّق الدروب",stEyebrow:"المحل",stmt:"مش أي سبادرين بتطلع عالرف عنّا. منختار كل قطعة، منفحصها ~بإيدنا~، ومنوصّلها لعندك لحد الباب.",view:"شوف",sending:"عم نبعت…",netErr:"ما قدرنا نوصل للمحل. تأكد من الإنترنت وجرّب مرة تانية.",mkEyebrow:"كيف بينعمل",mkT1:"من الرسمة",mkT2:"للشارع.",mkColour:"هلّق عم تشوف",m1t:"الرسمة",m1d:"كل سبادرين بتبلّش خطوط على ورقة.",m2t:"القالب",m2d:"القالب بيعطيه شكله وحجمه.",m3t:"الخامة",m3d:"الشبك والطبقات والنعل بيركبوا.",m4t:"الألوان",m4d:"Street و Beach و Midnight. نقّي عذوقك.",m5t:"إصدار KO",m5d:"أسود ودهبي. مفحوص، مغلّف، وجاهز.",skipNote:"مش متأكد من مقاسك؟ زيدها عالسلة ومنأكّد معك عالواتساب.",sfQ:"ما بتعرف مقاسك؟",sfMale:"شب",sfFemale:"صبية",sfH:"طولك (سم)",sfW:"وزنك (كغ)",sfF:"طول إجرك بالسم، اختياري",sfGo:"لاقيلي مقاسي",sfRes:"مقاسك: {s}. نقّيناه عنك.",sfNeedH:"حط طولك، أو طول إجرك.",sfNeedHW:"حط طولك ووزنك.",sfMin:"40 أصغر مقاس عنّا بهالموديل.",sfMax:"46 أكبر مقاس عنّا بهالموديل.",sfNear:"مقاسك بالزبط خلصان، هيدا أقرب واحد.",tbc:"المقاس منأكّده معك",optional:"اختياري",addrNote:"فيك تتركه ومنسألك عالواتساب.",dropT:"الدروب",catEyebrow:"الفئات",lgEyebrow:"القمصان",lgT1:"قمصان NBA",lgT2:"صارت بالمحل.",lgP:"قمصان سوينغمان وشوتينغ شيرت، إصدارات Classic و City و Statement، والمقاسات من S لـ XXL.",lgBtn:"تسوّق القمصان",shopAll:"كل المنتجات",all:"الكل",items:"{n} قطعة",sale:"عروض",sortF:"المميز",sortN:"الأحدث",sortL:"الأرخص",sortH:"الأغلى",quick:"عرض سريع",soldOut:"نفذت",left:"باقي {n}",newT:"جديد",empty:"ما في شي هون بعد.",s1t:"موثّق بالباركود",s1d:"كل حذاء مفحوص مع باركود التحقق.",s2t:"الدفع عند الاستلام",s2d:"ادفع للسائق لما يوصلك الطلب.",s3t:"لبنان وسوريا",s3d:"التوصيل خلال 1 إلى 3 أيام. مجاني فوق 100$.",s4t:"تبديل خلال 3 أيام",s4d:"المقاس غلط؟ راسلنا ومنبدّله.",fT1:"عندك سؤال؟",fT2:"راسل المحل.",shop:"المتجر",help:"مساعدة",contact:"تواصل",h1:"التوصيل 1 إلى 3 أيام",h2:"الدفع عند الاستلام",h3:"تبديل المقاس خلال 3 أيام",h4:"مساعد المقاس على كل منتج",owner:"لوحة المالك",copy:"نسخ",ship:"توصيل لبنان وسوريا",rights:"جميع الحقوق محفوظة.",madeBy:"تصميم وتطوير",size:"المقاس",guide:"دليل المقاسات",colour:"اللون",addBag:"أضف للسلة",pick:"اختار المقاس",orderWa:"اطلب عبر واتساب",ship2:"التوصيل والدفع",ship2d:"لبنان 4$، سوريا 5$، مجاني فوق 100$. الدفع عند الاستلام أو Whish أو شام كاش.",exch:"التبديل",exchd:"راسلنا خلال 3 أيام ومنبدّل المقاس إذا ما انلبس ومعه التاغ.",verified:"مع باركود التحقق",also:"بيلبق معه",added:"انضاف للسلة",yourBag:"سلتك",emptyBag:"سلتك فاضية.",keep:"كمّل تسوّق",sub:"المجموع الفرعي",disc:"الخصم",del:"التوصيل",atCheckout:"بالخطوة الجاية",total:"المجموع",checkout:"إتمام الطلب",freeLeft:"باقي {x} للتوصيل المجاني",freeYes:"صار التوصيل مجاني",bundle:"3 قطع أو أكثر: خصم 10%",promo:"كود الخصم",apply:"تطبيق",codeOk:"تم تطبيق الكود",codeBad:"الكود غير صالح",remove:"إزالة",details:"المعلومات",payment:"الدفع",name:"الاسم الكامل",phone:"الهاتف (واتساب)",country:"البلد",city:"المدينة",addr:"العنوان",notes:"ملاحظات للسائق",place:"تأكيد الطلب",cod:"الدفع عند الاستلام",codd:"ادفع للسائق",whish:"Whish Money",sham:"شام كاش",sendd:"منبعتلك التفاصيل",req:"مطلوب",badPhone:"8 أرقام على الأقل",lebanon:"لبنان",syria:"سوريا",doneT:"تم الطلب",doneD:"الطلب {id} محفوظ. ابعته على واتساب ومنأكدلك وقت التوصيل.",sendWa:"إرسال على واتساب",copyMsg:"نسخ الرسالة",copied:"تم النسخ",typeHere:"اكتب اسم أو ماركة",popular:"جرّب",noRes:"ما في نتائج.",bT1:"مبني طبقة",bT2:"فوق طبقة.",bP:"النعل، الزوم إير، الجزء العلوي، والشريطة. انزل وشوف الـ KD17 عم يتركّب.",bBtn:"تسوّق KD17",bs1:"التصميم",bs2:"الطبقات",bs3:"الشريطة",l1t:"الياقة واللسان",l1d:"تثبيت مريح للكعب",l2t:"الجزء العلوي",l2d:"شبك محبوك مع إطار TPU",l3t:"النعل الأوسط",l3d:"توسيد Zoom Air",l4t:"النعل الخارجي",l4d:"مطاط ماسك للملاعب",dEyebrow:"التوصيل",dT1:"من محلنا",dT2:"لباب بيتك.",d1t:"اطلب عبر واتساب",d1d:"أو اطلب من هون",d2t:"منفحص ومنغلّف",d2d:"تحقق بالباركود بالمحل",d3t:"عالطريق",d3d:"1 إلى 3 أيام، لبنان وسوريا",d4t:"ادفع عالباب",d4d:"الدفع عند الاستلام",dDone:"وصل.",dDone2:"افتحه."}
+};
+let lang=ls.get("ko_lang","en");
+const t=(k,v)=>{let s=(T[lang]||T.en)[k]??T.en[k]??k;if(v)for(const x in v)s=s.replace("{"+x+"}",v[x]);return s};
+const cname=id=>{const c=CATS.find(c=>c.id===id);return c?c[lang]:id};
+
+let products=JSON.parse(JSON.stringify(DEFAULTS));
+let cart=ls.get("ko_cart3",[]),orders=ls.get("ko_orders3",[]),promo=ls.get("ko_promo3","");
+const F={cat:"all",sort:"featured",sale:false};
+const saveP=()=>ls.set("ko_products_v5",products);
+const live=()=>products.filter(p=>!p.hidden);
+const byId=id=>products.find(p=>p.id===id);
+const isOut=p=>p.stock<=0||p.out.length>=p.sizes.length;
+
+let tt;const toast=m=>{const e=$("#toast");e.textContent=m;e.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>e.classList.remove("on"),2400)};
+const copy=(s)=>{try{navigator.clipboard.writeText(s).then(()=>toast(t("copied")),()=>toast(s))}catch(e){toast(s)}};
+
+/* ---------- render ---------- */
+function staticText(){
+  document.documentElement.lang=lang;document.documentElement.dir=lang==="ar"?"rtl":"ltr";
+  $$("[data-t]").forEach(e=>e.textContent=t(e.dataset.t));
+  $("#bLang").textContent=lang==="ar"?"EN":"عربي";
+  $("#sq").placeholder=t("typeHere");
+  // statement: split words, ~x~ marks the italic accent
+  const parts=t("stmt").split(/(~[^~]+~)/);
+  $("#stmt").innerHTML=parts.map(p=>p.startsWith("~")?`<span class="w it">${esc(p.slice(1,-1))}</span>`:p.split(/(\s+)/).map(w=>w.trim()?`<span class="w">${esc(w)}</span>`:w).join("")).join("");
+  // word mark
+  $("#word").innerHTML=[..."KO TRENDS"].map(c=>c===" "?`<span class="sp"></span>`:`<span class="c">${c}</span>`).join("");
+  const brands=["Nike","Jordan","Adidas","New Balance","Crocs","Fear of God","NBA","Real Madrid"];
+  $("#mq").innerHTML=[...brands,...brands,...brands].map(b=>`<span>${b}</span>`).join("");
+  
+}
+function navs(){
+  const items=[["all",t("shopAll")],...CATS.slice(0,4).map(c=>[c.id,c[lang]])];
+  $("#hnav").innerHTML=items.map(([id,n])=>`<button data-cat="${id}" class="${F.cat===id?"on":""}">${n}</button>`).join("");
+  $("#menu").innerHTML=[["all",t("shopAll")],...CATS.map(c=>[c.id,c[lang]])].map(([id,n])=>`<button data-cat="${id}">${n}</button>`).join("")+`<button id="mLang" style="font-size:20px;margin-top:30px;font-weight:500" class="dim">${lang==="ar"?"English":"عربي"}</button>`;
+  $("#fcats").innerHTML=CATS.map(c=>`<li><button class="ulink" data-cat="${c.id}">${c[lang]}</button></li>`).join("");
+}
+function renderDrop(){
+  const l=DROP.map(byId).filter(p=>p&&!p.hidden&&p.cut);
+  $("#dtrack").innerHTML=l.map((p,i)=>`<article class="slide"><div class="stage" data-open="${p.id}" data-cursor="View"><span class="idx num">${pad(i+1)}</span><img src="${p.cut}" alt="${esc(p.name)}" loading="lazy"></div><div class="meta"><div><span class="cap dim">${esc(p.brand)}</span><br><b>${esc(p.name)}</b></div><span class="num" style="font-size:19px">${money(p.price)}</span></div></article>`).join("");
+  $("#dCount").textContent=`01 / ${pad(l.length)}`;
+}
+function renderCats(){
+  $("#clist").innerHTML=CATS.map((c,i)=>{const n=live().filter(p=>p.cat===c.id).length;return `<button class="crow" data-cat="${c.id}" data-img="${c.img}"><span class="n num">${pad(i+1)}</span><span class="t">${c[lang]}</span><span><span class="cap dim num" style="margin-inline-end:18px">${pad(n)}</span><span class="ar">↗</span></span></button>`}).join("");
+  $("#catTotal").textContent=t("items",{n:live().length});
+}
+function tagFor(p){
+  if(isOut(p))return `<span class="tagl">${t("soldOut")}</span>`;
+  if(p.was>p.price)return `<span class="tagl g">-${Math.round((1-p.price/p.was)*100)}%</span>`;
+  if(p.stock<=4)return `<span class="tagl">${t("left",{n:p.stock})}</span>`;
+  if(p.tag==="new")return `<span class="tagl">${t("newT")}</span>`;
+  return "";
+}
+function card(p){
+  return `<article class="card${isOut(p)?" oos":""}" data-open="${p.id}" data-cursor="View" tabindex="0">
+    <div class="ph"><img class="a" src="${p.img[0]}" alt="${esc(p.name)}" loading="lazy">${p.img[1]?`<img class="b" src="${p.img[1]}" alt="" loading="lazy">`:""}${tagFor(p)}<span class="qv">${t("quick")}</span></div>
+    <div><div class="row"><span class="nm">${esc(p.name)}</span><span class="pr">${p.was>p.price?`<s>${money(p.was)}</s>`:""}${money(p.price)}</span></div><span class="br">${esc(p.brand)}</span></div>
+  </article>`;
+}
+function list(){
+  const s={featured:(a,b)=>b.feat-a.feat,new:(a,b)=>b.added-a.added,low:(a,b)=>a.price-b.price,high:(a,b)=>b.price-a.price}[F.sort];
+  return live().filter(p=>(F.cat==="all"||p.cat===F.cat)&&(!F.sale||p.was>p.price)).sort((a,b)=>(isOut(a)-isOut(b))||s(a,b));
+}
+function renderShop(anim){
+  const l=list();
+  $("#shopT").textContent=F.cat==="all"?t("shopAll"):cname(F.cat);
+  $("#shopN").textContent=t("items",{n:l.length});
+  const cnt=id=>live().filter(p=>id==="all"||p.cat===id).length;
+  $("#tabs").innerHTML=[["all",t("all")],...CATS.map(c=>[c.id,c[lang]])].map(([id,n])=>`<button class="ulink${F.cat===id?" on":""}" data-tab="${id}">${n}<sup class="num">${cnt(id)}</sup></button>`).join("")+`<button class="ulink${F.sale?" on":""}" id="tSale">${t("sale")}</button><span class="sp"></span><select id="sort" aria-label="Sort">${[["featured","sortF"],["new","sortN"],["low","sortL"],["high","sortH"]].map(([v,k])=>`<option value="${v}"${F.sort===v?" selected":""}>${t(k)}</option>`).join("")}</select>`;
+  $("#grid").innerHTML=l.length?l.map(card).join(""):`<div class="empty dim">${t("empty")}</div>`;
+  $$("#hnav button").forEach(b=>b.classList.toggle("on",b.dataset.cat===F.cat));
+  if(anim&&window.gsap&&!RM)gsap.from("#grid .card",{y:40,duration:.9,ease:"expo.out",stagger:.04});
+  if(window.ScrollTrigger)ScrollTrigger.refresh();
+}
+function renderLegends(){
+  $("#lcol").innerHTML=LEGENDS.map(byId).filter(Boolean).map(p=>`<figure data-open="${p.id}" data-cursor="View"><div class="fr"><img src="${p.img[0]}" alt="${esc(p.name)}" loading="lazy" data-par></div><figcaption><span>${esc(p.name)}</span><span class="num dim">${money(p.price)}</span></figcaption></figure>`).join("");
+}
+function renderWall(){
+  const l=live(),n=6,cols=Array.from({length:n},()=>[]);
+  l.forEach((p,i)=>cols[i%n].push(p));
+  $("#wall").innerHTML=cols.map((c,ci)=>{const tiles=c.map(p=>`<div class="wt" data-open="${p.id}" data-cursor="View"><img src="${p.img[0]}" alt="" loading="${ci<3?"eager":"lazy"}"></div>`).join("");return `<div class="wcol" style="animation-delay:-${ci*9}s">${tiles}${tiles}</div>`}).join("");
+}
+function renderAll(anim){renderWall();staticText();navs();renderDrop();renderCats();renderShop();renderLegends();renderBagCount();if(anim!==false)initMotion();}
+
+/* ---------- side panel ---------- */
+let sideMode="",sel={size:"",img:0};
+function openSide(html,mode){
+  sideMode=mode;$("#side").innerHTML=html;$("#side").classList.toggle("wide",mode==="product");$("#side").classList.add("open");$("#veil").classList.add("on");
+  lenis&&lenis.stop();document.documentElement.style.overflow="hidden";
+}
+function closeSide(){
+  $("#side").classList.remove("open");$("#veil").classList.remove("on");$("#search").classList.remove("open");$("#menu").classList.remove("open");
+  sideMode="";lenis&&lenis.start();document.documentElement.style.overflow="";
+  if(location.hash.startsWith("#p-"))history.replaceState(null,"",location.pathname+location.search);
+}
+function guide(p){
+  if(["sneakers","hoops","slides"].includes(p.cat))return `<table class="sgt"><tr><th>EU</th><th>US</th><th>UK</th><th>CM</th></tr>${[["40","7","6","25"],["41","8","7","26"],["42","8.5","7.5","26.5"],["43","9.5","8.5","27.5"],["44","10","9","28"],["45","11","10","29"],["46","12","11","30"]].map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
+  return `<table class="sgt"><tr><th>${t("size")}</th><th>Chest cm</th><th>Length cm</th></tr>${[["S","96","70"],["M","102","72"],["L","108","74"],["XL","114","76"],["XXL","120","78"]].map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
+}
+function openProduct(id){
+  const p=byId(id);if(!p)return;sel={size:"",img:0};fit=null;
+  history.replaceState(null,"","#p-"+id);
+  const imgs=[...p.img.map(s=>({s,c:0})),...(p.cut?[{s:p.cut,c:1}]:[])];
+  const also=live().filter(x=>x.id!==id&&x.cat!==p.cat&&!isOut(x)).sort((a,b)=>b.feat-a.feat).slice(0,2);
+  const shoe=["sneakers","hoops"].includes(p.cat);
+  openSide(`<div class="sh"><span class="cap dim">${esc(p.brand)} · ${cname(p.cat)}</span><button class="close ulink" data-close>${t("close")}</button></div>
+  <div class="sb pv">
+    <div class="gal">${imgs.map((m,i)=>`<img class="${m.c?"cut":""}" src="${m.s}" alt="${esc(p.name)}" style="opacity:${i?0:1}">`).join("")}
+      ${imgs.length>1?`<div class="dots">${imgs.map((m,i)=>`<button class="${i?"":"on"}" data-gi="${i}" aria-label="Image ${i+1}"></button>`).join("")}</div>`:""}</div>
+    <div class="pad">
+      <h3>${esc(p.name)}</h3>
+      <div class="pp">${money(p.price)}${p.was>p.price?`<s>${money(p.was)}</s>`:""}</div>
+      <div class="szhead" style="margin-top:18px"><span class="cap">${t("size")}</span>${p.stock>0&&p.stock<=4?`<span class="cap" style="color:var(--gold-hi)">${t("left",{n:p.stock})}</span>`:""}</div>
+      <div class="szs" id="szs">${p.sizes.map(s=>`<button class="${p.out.includes(s)?"x":""}" data-sz="${s}">${s}</button>`).join("")}</div>
+      <p class="d" style="font-size:14px;margin-top:12px">${t("skipNote")}</p>
+      <button class="ulink cap" id="sfBtn" style="margin-top:14px;color:var(--gold-hi)">${t("sfQ")} →</button>
+      <div class="sfbox" id="sfBox" hidden>
+        <div class="sfg"><button class="on" data-g="m">${t("sfMale")}</button><button data-g="f">${t("sfFemale")}</button></div>
+        <div class="two"><div class="fld"><label for="sfH">${t("sfH")}</label><input id="sfH" type="number" inputmode="numeric" min="120" max="230" placeholder="178"></div>
+        <div class="fld"><label for="sfW">${t("sfW")}</label><input id="sfW" type="number" inputmode="numeric" min="30" max="200" placeholder="75"></div></div>
+        ${shoe||p.cat==="slides"?`<div class="fld"><label for="sfF">${t("sfF")}</label><input id="sfF" type="number" inputmode="decimal" step="0.1" min="18" max="34" placeholder="27"></div>`:""}
+        <button class="btn full" id="sfGo">${t("sfGo")}</button>
+        <p class="sfres" id="sfRes" aria-live="polite"></p>
+      </div>
+      <p class="d" style="margin-top:26px">${esc(p.desc)}</p>
+      ${p.color?`<p class="d" style="margin-top:8px"><span class="cap">${t("colour")}</span> &nbsp;${esc(p.color)}</p>`:""}
+      ${shoe?`<p class="d cap" style="color:var(--gold-hi);margin-top:14px">✓ ${t("verified")}</p>`:""}
+      <div class="acc">
+        <details><summary class="cap">${t("guide")}</summary>${guide(p)}</details>
+        <details><summary class="cap">${t("ship2")}</summary><p>${t("ship2d")}</p></details>
+        <details><summary class="cap">${t("exch")}</summary><p>${t("exchd")}</p></details>
+      </div>
+      ${also.length?`<p class="cap dim" style="margin-top:30px">${t("also")}</p><div class="also">${also.map(a=>`<button data-open="${a.id}"><img src="${a.img[0]}" alt=""><span>${esc(a.name)}<br><span class="dim num">${money(a.price)}</span></span></button>`).join("")}</div>`:""}
+    </div>
+  </div>
+  <div class="sf"><button class="btn solid full" id="pAdd" data-id="${p.id}" ${isOut(p)?"disabled":""}>${isOut(p)?t("soldOut"):t("addBag")} <span class="num" style="opacity:.6">· ${money(p.price)}</span></button><a class="wa" id="pWa" target="_blank" rel="noopener" href="#">${t("orderWa")} →</a></div>`,"product");
+  updWa(p);
+}
+let fit=null,gen="m";
+function recSize(p,h,w,foot){
+  const shoeLike=["sneakers","hoops","slides"].includes(p.cat);let s,note="";
+  if(shoeLike){const fl=foot||h*(gen==="f"?.149:.152);let eu=Math.round((fl+1.5)*1.5);if(eu<40){note=t("sfMin");eu=40}if(eu>46){note=t("sfMax");eu=46}s=String(eu)}
+  else{const th=gen==="f"?[52,62,72,84]:[62,74,86,100];let i=th.filter(x=>w>=x).length;if(h>=188)i++;if(h&&h<=162)i--;s=APP[Math.max(0,Math.min(4,i))]}
+  if(p.out.includes(s)){const av=p.sizes.filter(x=>!p.out.includes(x));const k=p.sizes.indexOf(s);s=av.sort((a,b)=>Math.abs(p.sizes.indexOf(a)-k)-Math.abs(p.sizes.indexOf(b)-k))[0];note=t("sfNear")}
+  return{s,note};
+}
+function updWa(p){const a=$("#pWa");if(a)a.href=`https://wa.me/${WA}?text=${encodeURIComponent(`Hi KO Trends, I want:\n${p.name}\nSize: ${sel.size||"?"}\n${money(p.price)}`)}`}
+/* ---------- bag ---------- */
+const CODES={KO10:{pct:10}};
+function totals(country){
+  const items=cart.map(l=>({...l,p:byId(l.id)})).filter(l=>l.p);
+  const sub=items.reduce((s,l)=>s+l.p.price*l.qty,0),n=items.reduce((s,l)=>s+l.qty,0);
+  let disc=0,why="";
+  if(n>=3){disc=sub*.1;why=t("bundle")}
+  if(CODES[promo]&&sub*CODES[promo].pct/100>disc){disc=sub*CODES[promo].pct/100;why=promo}
+  const after=sub-disc,fee=!country?null:(after>=100?0:country==="SY"?5:4);
+  return{items,sub,n,disc,why,after,fee,total:after+(fee||0)};
+}
+function renderBagCount(){const n=totals().n;$("#bagN").textContent=n}
+function saveCart(){ls.set("ko_cart3",cart);renderBagCount();if(sideMode==="bag")openBag(true)}
+function openBag(keep){
+  const T0=totals(),left=Math.max(0,100-T0.after);
+  const html=`<div class="sh"><span class="cap">${t("yourBag")} <span class="dim num">(${T0.n})</span></span><button class="close ulink" data-close>${t("close")}</button></div>
+  ${T0.items.length?`<div class="sb">
+    <div class="pad" style="padding-bottom:6px"><span class="cap ${left?"dim":""}" style="${left?"":"color:var(--gold-hi)"}">${left?t("freeLeft",{x:money(left)}):t("freeYes")}</span><div class="prog"><i style="width:${Math.min(100,T0.after)}%"></i></div></div>
+    ${T0.items.map((l,i)=>`<div class="li"><img src="${l.p.img[0]}" alt="" data-open="${l.p.id}"><div style="min-width:0"><div class="nm">${esc(l.p.name)}</div><div class="dim" style="font-size:14px">${l.size==="?"?t("tbc"):t("size")+" "+esc(l.size)}${l.fit?` · ${esc(l.fit)}`:""}</div><div><span class="qty"><button data-q="${i}" data-d="-1" aria-label="Less">−</button><span>${l.qty}</span><button data-q="${i}" data-d="1" aria-label="More">+</button></span><button class="rm" data-rm="${i}">${t("remove")}</button></div></div><span class="num">${money(l.p.price*l.qty)}</span></div>`).join("")}
+    <div class="pad dim" style="font-size:14px">${t("bundle")}</div>
+  </div>
+  <div class="sf">
+    <div class="promo"><input id="promoIn" placeholder="${t("promo")}" value="${esc(promo)}" aria-label="${t("promo")}"><button id="promoBtn">${t("apply")}</button></div>
+    <div class="sr"><span class="dim">${t("sub")}</span><span>${money(T0.sub)}</span></div>
+    ${T0.disc?`<div class="sr"><span class="dim">${t("disc")} · ${esc(T0.why)}</span><span class="g">−${money(T0.disc)}</span></div>`:""}
+    <div class="sr"><span class="dim">${t("del")}</span><span class="dim">${T0.after>=100?"$0":t("atCheckout")}</span></div>
+    <div class="sr t"><span>${t("total")}</span><span>${money(T0.after)}</span></div>
+    <button class="btn solid full" id="goCo">${t("checkout")} <span class="arr">→</span></button>
+  </div>`:`<div class="emptyb"><p>${t("emptyBag")}</p><button class="btn" data-close data-go="shop">${t("keep")} <span class="arr">→</span></button></div>`}`;
+  if(keep&&sideMode==="bag"){$("#side").innerHTML=html}else openSide(html,"bag");
+}
+function add(id,size,fit){
+  const p=byId(id),ex=cart.find(l=>l.id===id&&l.size===size);
+  if(ex)ex.qty=Math.min(ex.qty+1,Math.max(1,p.stock));else cart.push({id,size,qty:1,fit:fit||""});
+  saveCart();toast(t("added"));
+  if(window.gsap&&!RM)gsap.fromTo("#bagN",{scale:1.8},{scale:1,duration:.8,ease:"elastic.out(1,.4)"});
+}
+
+/* ---------- checkout ---------- */
+const CITIES={LB:["Beirut","Mount Lebanon","Jounieh","Jbeil","Batroun","Tripoli","Zahle","Saida","Tyre","Nabatieh"],SY:["Damascus","Aleppo","Homs","Latakia","Tartus","Hama","Idlib","Daraa"]};
+let co={country:"LB",pay:"cod"};
+function openCo(d){
+  d=d||ls.get("ko_codraft3",{});co.country=d.country||co.country;
+  const T1=totals(co.country);
+  const pays=[["cod",t("cod"),t("codd")],co.country==="LB"?["whish",t("whish"),t("sendd")]:["sham",t("sham"),t("sendd")]];
+  if(!pays.some(p=>p[0]===co.pay))co.pay="cod";
+  const html=`<div class="sh"><span class="steps cap"><span>${t("bag")}</span><span class="on">${t("details")}</span></span><button class="close ulink" data-close>${t("close")}</button></div>
+  <form class="sb pad" id="coF" novalidate>
+    <div class="fld"><label for="cN">${t("name")} <span style="opacity:.6">(${t("optional")})</span></label><input id="cN" value="${esc(d.name||"")}" autocomplete="name"><span class="err" data-e="name"></span></div>
+    <div class="fld"><label for="cP">${t("phone")}</label><input id="cP" inputmode="tel" value="${esc(d.phone||"")}" autocomplete="tel" placeholder="${co.country==="LB"?"+961":"+963"}"><span class="err" data-e="phone"></span></div>
+    <div class="two"><div class="fld"><label for="cC">${t("country")}</label><select id="cC"><option value="LB"${co.country==="LB"?" selected":""}>${t("lebanon")}</option><option value="SY"${co.country==="SY"?" selected":""}>${t("syria")}</option></select></div>
+    <div class="fld"><label for="cT">${t("city")}</label><select id="cT">${CITIES[co.country].map(c=>`<option${d.city===c?" selected":""}>${c}</option>`).join("")}</select></div></div>
+    <div class="fld"><label for="cA">${t("addr")} <span style="opacity:.6">(${t("optional")})</span></label><input id="cA" value="${esc(d.addr||"")}" autocomplete="street-address"><span class="err" data-e="addr"></span><span class="dim" style="font-size:13px">${t("addrNote")}</span></div>
+    <div class="fld"><label for="cO">${t("notes")}</label><textarea id="cO" rows="1">${esc(d.notes||"")}</textarea></div>
+    <div class="fld"><label>${t("payment")}</label><div class="pay">${pays.map(([v,n,dd])=>`<label><span style="color:var(--bone);font-size:15px"><input type="radio" name="pay" value="${v}"${co.pay===v?" checked":""}>${n}</span><span>${dd}</span></label>`).join("")}</div></div>
+    <p id="coErr" role="alert" style="color:#E2735A;margin:4px 0 0;font-size:14px"></p>
+    <div style="border-top:1px solid var(--line);padding-top:16px;margin-top:10px;display:flex;flex-direction:column;gap:8px">
+      ${T1.items.map(l=>`<div class="sr"><span class="dim">${esc(l.p.name)} · ${l.size==="?"?t("tbc"):esc(l.size)} × ${l.qty}</span><span>${money(l.p.price*l.qty)}</span></div>`).join("")}
+      ${T1.disc?`<div class="sr"><span class="dim">${t("disc")}</span><span class="g">−${money(T1.disc)}</span></div>`:""}
+      <div class="sr"><span class="dim">${t("del")} · ${co.country==="LB"?t("lebanon"):t("syria")}</span><span>${money(T1.fee)}</span></div>
+      <div class="sr t"><span>${t("total")}</span><span>${money(T1.total)}</span></div>
+    </div>
+  </form>
+  <div class="sf"><button class="btn solid full" type="submit" form="coF">${t("place")} <span class="arr">→</span></button></div>`;
+  if(sideMode)$("#side").innerHTML=html,sideMode="co";else openSide(html,"co");
+}
+const readCo=()=>({name:$("#cN").value.trim(),phone:$("#cP").value.trim(),country:$("#cC").value,city:$("#cT").value,addr:$("#cA").value.trim(),notes:$("#cO").value.trim()});
+async function place(){
+  const d=readCo();let ok=true;$$("[data-e]").forEach(e=>e.textContent="");$("#coErr").textContent="";
+  if((d.phone.match(/\d/g)||[]).length<8){$('[data-e="phone"]').textContent=t("badPhone");ok=false}
+  if(!ok)return;
+  const pay=$('input[name="pay"]:checked').value,btn=$('button[form="coF"]');
+  btn.disabled=true;btn.textContent=t("sending");
+  let res,data;
+  try{res=await fetch("/api/orders",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify({name:d.name,phone:d.phone,country:d.country,city:d.city,address:d.addr,notes:d.notes,pay,promo,items:cart.map(l=>({id:l.id,size:l.size,qty:l.qty,fit:l.fit||""}))})});data=await res.json()}
+  catch(e){res={ok:false};data={error:t("netErr")}}
+  if(!res.ok){btn.disabled=false;btn.innerHTML=`${t("place")} <span class="arr">→</span>`;$("#coErr").textContent=data.error||t("netErr");loadProducts();return}
+  const id=data.code,payN=data.payment;
+  const msg=`New order ${id}\n\n${data.lines.map(l=>`- ${l.name} | Size ${l.size==="?"?"NOT SURE, please confirm":l.size}${l.fit?` (fit: ${l.fit})`:""} | x${l.qty} | ${money(l.price*l.qty)}`).join("\n")}\n\nSubtotal: ${money(data.subtotal)}${data.discount?`\nDiscount${data.promo?" ("+data.promo+")":""}: -${money(data.discount)}`:""}\nDelivery: ${money(data.delivery)}\nTotal: ${money(data.total)}\n\nName: ${d.name||"-"}\nPhone: ${d.phone}\n${d.country==="LB"?"Lebanon":"Syria"}, ${d.city}\nAddress: ${d.addr||"Will share on WhatsApp"}${d.notes?`\nNotes: ${d.notes}`:""}\nPayment: ${payN}`;
+  ls.set("ko_codraft3",{...d,notes:""});cart=[];promo="";ls.set("ko_promo3","");ls.set("ko_cart3",cart);renderBagCount();loadProducts();
+  window.__msg=msg;sideMode="done";
+  $("#side").innerHTML=`<div class="sh"><span class="cap dim">${id}</span><button class="close ulink" data-close>${t("close")}</button></div>
+   <div class="sb"><div class="done"><svg class="ko" viewBox="270 415 2015 1650" style="width:70px"><use href="#koPath"/></svg><h3>${t("doneT")}</h3><p class="dim" style="margin:0;max-width:40ch">${t("doneD",{id})}</p>
+   <a class="btn solid" href="https://wa.me/${WA}?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${t("sendWa")} <span class="arr">→</span></a>
+   <pre>${esc(msg)}</pre><button class="cap ulink" id="cpMsg">${t("copyMsg")}</button><span class="dim">WhatsApp <span class="num ltr">+963 957 381 807</span></span></div></div>`;
+}
+let loadedOnce=false;
+async function loadProducts(){
+  try{const r=await fetch("/api/products",{cache:"no-store"});if(!r.ok)return;const d=await r.json();
+    if(Array.isArray(d)&&d.length){products=d;cart=cart.filter(l=>byId(l.id));renderAll(loadedOnce?false:undefined);loadedOnce=true;if(location.hash.startsWith("#p-")&&byId(location.hash.slice(3))&&!sideMode)openProduct(location.hash.slice(3))}}catch(e){}
+}
+
+/* ---------- search ---------- */
+function renderSearch(){
+  const q=$("#sq").value.trim().toLowerCase();
+  $("#sugg").innerHTML=`<span class="cap dim">${t("popular")}</span>`+["Jordan","Campus","Curry","Air Force","Shorts"].map(s=>`<button class="cap ulink" data-sq="${s}">${s}</button>`).join("");
+  const l=(q?live().filter(p=>(p.name+" "+p.brand+" "+cname(p.cat)+" "+(CATS.find(c=>c.id===p.cat)||{}).en+" "+p.color).toLowerCase().includes(q)):live().sort((a,b)=>b.feat-a.feat)).slice(0,10);
+  $("#sres").innerHTML=l.length?l.map(p=>`<button data-open="${p.id}"><img src="${p.img[0]}" alt="" loading="lazy"><span>${esc(p.name)}<br><span class="dim num">${money(p.price)}</span></span></button>`).join(""):`<p class="dim">${t("noRes")}</p>`;
+}
+
+/* ---------- owner ---------- */
+let atab="products",confirmDel="",confirmReset=false;
+function renderAdmin(){
+  const rev=orders.reduce((s,o)=>s+o.total,0),units=orders.reduce((s,o)=>s+o.items.reduce((a,i)=>a+i.qty,0),0);
+  $("#admin").innerHTML=`<span class="cap dim">KO Trends</span><h2>Owner panel</h2>
+  <p class="dim" style="max-width:62ch">Demo panel. Changes save in this browser so you can try it. The live version runs on a database so you can manage stock and orders from your phone.</p>
+  <div class="kp"><div><span class="cap dim">Orders</span><b>${orders.length}</b></div><div><span class="cap dim">Revenue</span><b>${money(rev)}</b></div><div><span class="cap dim">Units sold</span><b>${units}</b></div><div><span class="cap dim">Live products</span><b>${live().length}</b></div></div>
+  <div class="atabs"><button class="ulink${atab==="products"?" on":""}" data-atab="products">Products</button><button class="ulink${atab==="orders"?" on":""}" data-atab="orders">Orders (${orders.length})</button><span style="flex:1"></span><button class="ulink" id="aBack">Back to store</button></div>
+  ${atab==="products"?`<form class="addf" id="addF">
+    <div class="fld"><label for="aN">Product name</label><input id="aN"></div>
+    <div class="fld"><label for="aB">Brand</label><input id="aB"></div>
+    <div class="fld"><label for="aC">Category</label><select id="aC">${CATS.map(c=>`<option value="${c.id}">${c.en}</option>`).join("")}</select></div>
+    <div class="fld"><label for="aP">Price, $15 min</label><input id="aP" type="number" min="15" value="45"></div>
+    <div class="fld"><label for="aI">Photo</label><input id="aI" type="file" accept="image/*" style="font-size:13px"></div>
+    <div class="fld"><button class="btn solid" type="submit">Add product</button></div></form>
+  <div class="tw"><table class="at"><thead><tr><th></th><th>Product</th><th>Category</th><th>Price</th><th>Was</th><th>Stock</th><th>Badge</th><th>Visible</th><th></th></tr></thead><tbody>
+  ${products.map(p=>`<tr><td><img src="${p.img[0]}" alt=""></td><td><b style="font-weight:600">${esc(p.name)}</b><br><span class="dim">${esc(p.brand)}</span></td><td>${(CATS.find(c=>c.id===p.cat)||{}).en}</td>
+  <td><input type="number" min="15" value="${p.price}" data-ed="${p.id}" data-k="price" aria-label="Price"></td><td><input type="number" min="0" value="${p.was||""}" data-ed="${p.id}" data-k="was" aria-label="Was"></td><td><input type="number" min="0" value="${p.stock}" data-ed="${p.id}" data-k="stock" aria-label="Stock"></td>
+  <td><select data-ed="${p.id}" data-k="tag" aria-label="Badge"><option value="">None</option><option value="new"${p.tag==="new"?" selected":""}>New</option></select></td>
+  <td><input type="checkbox" ${p.hidden?"":"checked"} data-vis="${p.id}" aria-label="Visible"></td>
+  <td>${confirmDel===p.id?`<button class="ulink" data-dy="${p.id}" style="color:#E2735A">Confirm</button> &nbsp;<button class="ulink dim" data-dn>Keep</button>`:`<button class="ulink dim" data-dl="${p.id}">Delete</button>`}</td></tr>`).join("")}
+  </tbody></table></div>
+  <p style="margin-top:20px">${confirmReset?`Reset everything to the original demo? <button class="ulink" id="rY" style="color:#E2735A">Reset</button> &nbsp;<button class="ulink dim" id="rN">Cancel</button>`:`<button class="ulink dim" id="rR">Reset demo data</button>`}</p>`
+  :`<div class="tw"><table class="at"><thead><tr><th>Order</th><th>Date</th><th>Customer</th><th>Items</th><th>Total</th><th>Payment</th><th>Status</th></tr></thead><tbody>
+  ${orders.length?orders.map((o,i)=>`<tr><td><b>${o.id}</b></td><td class="num">${new Date(o.date).toLocaleString("en-GB",{day:"2-digit",month:"short",hour:"2-digit",minute:"2-digit"})}</td><td>${esc(o.cust.name)}<br><span class="dim num ltr">${esc(o.cust.phone)}</span><br><span class="dim">${esc(o.cust.city)}</span></td><td>${o.items.map(x=>`${esc(x.name)} <span class="dim">${esc(x.size)} × ${x.qty}</span>`).join("<br>")}</td><td class="num">${money(o.total)}</td><td>${esc(o.pay)}</td><td><span class="st ${o.status}">${o.status}</span><br><select data-os="${i}" aria-label="Status" style="margin-top:6px">${["New","Confirmed","Delivered"].map(s=>`<option${o.status===s?" selected":""}>${s}</option>`).join("")}</select></td></tr>`).join(""):`<tr><td colspan="7" class="dim" style="padding:40px 0">No orders yet. Place a test order in the store and it shows here.</td></tr>`}
+  </tbody></table></div>`}`;
+}
+function route(){
+  if(location.hash.startsWith("#p-")&&byId(location.hash.slice(3)))openProduct(location.hash.slice(3));
+  if(window.ScrollTrigger)ScrollTrigger.refresh();
+}
+
+
+/* ---------- scenes ---------- */
+function buildScenes(){
+  // stars + mountains
+  let st="";for(let i=0;i<90;i++){const x=(i*271.3)%2400,y=-900+((i*137.7)%1300);st+=`<circle cx="${x.toFixed(0)}" cy="${y.toFixed(0)}" r="${(i%3?1:1.8)}" fill="rgba(236,228,212,${i%4?.25:.6})"/>`}
+  st+=`<path d="M1180,30 a46,46 0 1,0 40,70 a36,36 0 1,1 -40,-70z" fill="var(--gold-hi)" opacity=".85"/>`;
+  $("#stars").innerHTML=st;
+  let m="M0,520";for(let x=0;x<=2400;x+=80){m+=` L${x},${(470+Math.sin(x/170)*38+Math.sin(x/53)*12).toFixed(0)}`}
+  $("#mtn").setAttribute("d",m);
+  // checkpoints
+  const road=$("#road"),L=road.getTotalLength();
+  window.__cpf=[.08,.36,.62,.84];
+  $("#cps").innerHTML=__cpf.map((f,i)=>{const p=road.getPointAtLength(L*f);return `<circle class="cp" data-cp="${i}" cx="${p.x}" cy="${p.y}" r="9"/><text class="cpt" data-cpt="${i}" x="${p.x}" y="${p.y+44}" text-anchor="middle">${pad(i+1)}</text>`}).join("");
+  setCam(340);
+}
+function fracAtX(x){const r=$("#road"),L=r.getTotalLength();let lo=0,hi=1;for(let i=0;i<30;i++){const m=(lo+hi)/2;if(r.getPointAtLength(L*m).x<x)lo=m;else hi=m}return lo}
+function setCam(vx){
+  const svg=$("#dsvg"),vw=svg.clientWidth||innerWidth,vh=svg.clientHeight||innerHeight;
+  let H=980,W=H*vw/vh;if(W<760){W=760;H=W*vh/vw}
+  const x=Math.max(0,Math.min(2400-W,vx-W*.42));
+  svg.setAttribute("viewBox",`${x.toFixed(1)} ${(640-H*.72).toFixed(1)} ${W.toFixed(1)} ${H.toFixed(1)}`);
+}
+function sceneMotion(){
+  // making-of scene: pin and pass progress to the 3D module
+  ScrollTrigger.create({trigger:"#make",start:"top top",end:"+=520%",pin:true,onUpdate:s=>{window.__mkP=s.progress},onRefresh:s=>{window.__mkP=s.progress}});
+  // B: van drives from store to door, box opens
+  if(!window.MotionPathPlugin)return;
+  const fs=fracAtX(340),fe=fracAtX(1880),L=$("#road").getTotalLength();
+  const mp={path:"#road",align:"#road",alignOrigin:[.5,1],autoRotate:true};
+  gsap.set("#van",{motionPath:{...mp,start:fs,end:fs}});
+  const cps=$$("#cps .cp"),cpt=$$("#cps .cpt"),steps=$$("#dsteps>div");
+  const upd=()=>{const vx=gsap.getProperty("#van","x");setCam(vx);const f=fracAtX(vx),bo=+gsap.getProperty("#box","opacity");
+      cps.forEach((c,i)=>{const on=f>=__cpf[i]-.005;c.classList.toggle("on",on);cpt[i].classList.toggle("on",on)});
+      steps.forEach((s,i)=>s.classList.toggle("on",i<3?f>=__cpf[i]-.005:bo>.5));
+      $(".dvh").style.opacity=Math.max(0,1-(f-fs)*6)};
+  const tb=gsap.timeline({onUpdate:upd,scrollTrigger:{trigger:"#deliver",start:"top top",end:"+=420%",pin:true,scrub:.6,onRefresh:upd}});
+  tb.to("#van",{motionPath:{...mp,start:fs,end:fe},duration:6,ease:"power1.inOut"})
+    .to("#roadG",{strokeDashoffset:1-fe,duration:6,ease:"power1.inOut"},0)
+    .to(".whin",{rotation:360*9,duration:6,ease:"power1.inOut",transformOrigin:"50% 50%"},0)
+    .fromTo("#box",{opacity:1,x:-190,y:-60,rotation:-20},{immediateRender:false,x:0,y:0,rotation:0,duration:1,ease:"bounce.out"})
+    .to("#flapL",{rotation:-125,transformOrigin:"0% 100%",duration:.5},"+=.15")
+    .to("#flapR",{rotation:125,transformOrigin:"100% 100%",duration:.5},"<")
+    .fromTo("#jer",{opacity:0,y:70,scale:.3,transformOrigin:"50% 100%"},{immediateRender:false,opacity:1,y:-20,scale:1,duration:1.2,ease:"back.out(1.7)"})
+    .to(".win",{attr:{fill:"rgba(235,201,140,.55)"},duration:.6},"<")
+    .to("#doneT",{opacity:1,duration:.6},"<.4")
+    .to({},{duration:.6});
+}
+
+/* ---------- motion ---------- */
+let lenis=null,ctx=null;
+function initMotion(){
+  if(!window.gsap||RM)return;
+  gsap.registerPlugin(ScrollTrigger);if(window.MotionPathPlugin)gsap.registerPlugin(MotionPathPlugin);
+  if(ctx)ctx.revert();
+  const rtl=document.documentElement.dir==="rtl";
+  ctx=gsap.context(()=>{
+    // hero: shoe drifts and turns on scroll, wordmark spreads
+    gsap.to("#wall",{scale:1.35,yPercent:12,opacity:.35,ease:"none",scrollTrigger:{trigger:"#hero",start:"top top",end:"bottom top",scrub:true}});
+    gsap.to("#hmono",{yPercent:-40,scale:.7,opacity:0,ease:"none",scrollTrigger:{trigger:"#hero",start:"top top",end:"70% top",scrub:true}});
+    gsap.to("#word",{letterSpacing:"0.04em",yPercent:-30,opacity:.25,ease:"none",scrollTrigger:{trigger:"#hero",start:"top top",end:"bottom top",scrub:true}});
+    gsap.to(".htop",{yPercent:-60,opacity:0,ease:"none",scrollTrigger:{trigger:"#hero",start:"top top",end:"40% top",scrub:true}});
+    // statement words light up
+    const words=$$("#stmt .w");
+    ScrollTrigger.create({trigger:"#stmt",start:"top 80%",end:"bottom 45%",scrub:true,onUpdate:s=>{const k=Math.round(s.progress*words.length);words.forEach((w,i)=>w.style.opacity=i<k?1:.2)}});
+    // pinned horizontal drop
+    const mm=gsap.matchMedia();
+    mm.add("(min-width: 821px)",()=>{
+      const tr=$("#dtrack");
+      const dist=()=>Math.max(0,tr.scrollWidth-window.innerWidth+parseFloat(getComputedStyle(document.documentElement).fontSize)*2);
+      const slides=$$("#dtrack .slide");
+      gsap.set(tr,{paddingInlineStart:"max(20px, env(safe-area-inset-left, 0px))",paddingInlineEnd:"20vw"});
+      gsap.to(tr,{x:()=>(rtl?1:-1)*dist(),ease:"none",scrollTrigger:{trigger:"#drop",start:"top top",end:()=>"+="+dist(),pin:true,scrub:.6,invalidateOnRefresh:true,onUpdate:s=>{
+        const i=Math.min(slides.length,1+Math.floor(s.progress*slides.length*.999));$("#dCount").textContent=`${pad(i)} / ${pad(slides.length)}`;$("#dprog").style.width=(s.progress*100)+"%"}}});
+      slides.forEach(sl=>{const im=sl.querySelector("img");gsap.fromTo(im,{rotate:-8},{rotate:6,ease:"none",scrollTrigger:{trigger:"#drop",start:"top top",end:()=>"+="+dist(),scrub:true}})});
+    });
+    sceneMotion();
+    // section titles slide in
+    $$(".shead h2,.dhead h2,.lg h2").forEach(h=>gsap.from(h,{yPercent:40,ease:"expo.out",duration:1.4,scrollTrigger:{trigger:h,start:"top 92%"}}));
+    // category rows stagger
+    gsap.from("#clist .crow .t",{yPercent:60,ease:"expo.out",duration:1.3,stagger:.06,scrollTrigger:{trigger:"#clist",start:"top 85%"}});
+    // legends parallax
+    $$("[data-par]").forEach((im,i)=>gsap.fromTo(im.parentElement,{y:40},{y:-40,ease:"none",scrollTrigger:{trigger:im.parentElement,start:"top bottom",end:"bottom top",scrub:true}}));
+    // footer monogram
+    ScrollTrigger.sort();
+    gsap.from(".fmono .ko",{yPercent:30,scale:.9,ease:"none",scrollTrigger:{trigger:".fmono",start:"top bottom",end:"bottom bottom",scrub:true}});
+  });
+  ScrollTrigger.refresh();
+}
+function initOnce(){
+  // marquee driven by scroll velocity
+  let x=0,dir=1,vel=0;const mq=$("#mq");
+  if(window.gsap&&!RM){
+    gsap.ticker.add(()=>{const w=mq.scrollWidth/3;x-=(0.6+Math.min(Math.abs(vel)*.02,6))*dir;if(x<-w)x+=w;if(x>0)x-=w;mq.style.transform=`translate3d(${x}px,0,0)`;vel*=.92});
+  }
+  if(window.Lenis&&!RM){
+    lenis=new Lenis({lerp:.09,smoothWheel:true});
+    lenis.on("scroll",e=>{vel=e.velocity;dir=e.direction>=0?1:-1;if(window.ScrollTrigger)ScrollTrigger.update();head(e.scroll,e.direction)});
+    gsap.ticker.add(t=>lenis.raf(t*1000));gsap.ticker.lagSmoothing(0);
+  }else{
+    let ly=0;addEventListener("scroll",()=>{const y=scrollY;vel=(y-ly)*2;dir=y>=ly?1:-1;head(y,dir);ly=y},{passive:true});
+  }
+  // header hide/show
+  function head(y,d){const h=$("#hd");h.classList.toggle("solid",y>40);h.classList.toggle("away",y>500&&d>0&&!sideMode)}
+  // cursor + magnetic + hero parallax
+  if(FINE&&!RM){
+    if(!window.gsap){document.body.classList.remove("cur-on");return}
+    const c=$("#cur"),ct=$("#curT"),ball=$("#cur .ball svg");let mx=innerWidth/2,my=innerHeight/2,cx=mx,cy=my,rot=0,sq=1;
+    document.body.classList.add("cur-on");
+    addEventListener("mousemove",e=>{mx=e.clientX;my=e.clientY});
+    addEventListener("mousedown",e=>{sq=.62;const r=document.createElement("i");r.className="rip";r.style.left=e.clientX+"px";r.style.top=e.clientY+"px";document.body.appendChild(r);setTimeout(()=>r.remove(),800)});
+    const cf=$("#cfloat");let fx=mx,fy=my;
+    gsap.ticker.add(()=>{const dx=mx-cx,dy=my-cy;cx+=dx*.24;cy+=dy*.24;rot+=dx*.9;sq+=(1-sq)*.18;
+      const v=Math.min(Math.hypot(dx,dy)/60,.35);
+      c.style.transform=`translate3d(${cx}px,${cy}px,0)`;
+      ball.style.transform=`rotate(${rot}deg) scale(${(1+v)*(2-sq)},${(1-v*.6)*sq})`;
+      fx+=(mx-fx)*.1;fy+=(my-fy)*.1;cf.style.transform=`translate3d(${fx-150}px,${fy-190}px,0) rotate(${(mx-fx)*.04}deg)`;
+      const rx=(mx/innerWidth-.5),ry=(my/innerHeight-.5);$("#hmono").style.translate=`${rx*-18}px ${ry*-12}px`});
+    document.addEventListener("mouseover",e=>{const el=e.target.closest("[data-cursor]");c.classList.toggle("big",!!el);if(el)ct.textContent=t("view");
+      const row=e.target.closest(".crow");cf.classList.toggle("on",!!row);if(row&&$("#cfImg").getAttribute("src")!==row.dataset.img)$("#cfImg").src=row.dataset.img;});
+    document.addEventListener("mouseleave",()=>c.classList.add("hide"));document.addEventListener("mouseenter",()=>c.classList.remove("hide"));
+    $$(".btn").forEach(b=>{b.addEventListener("mousemove",e=>{const r=b.getBoundingClientRect();gsap.to(b,{x:(e.clientX-r.left-r.width/2)*.25,y:(e.clientY-r.top-r.height/2)*.35,duration:.6,ease:"power3.out"})});b.addEventListener("mouseleave",()=>gsap.to(b,{x:0,y:0,duration:.8,ease:"elastic.out(1,.4)"}))});
+  }
+}
+function intro(){
+  const pre=$("#pre");
+  if(!window.gsap||RM||document.visibilityState==="hidden"){pre.remove();return}
+  const o={v:0};
+  const tl=gsap.timeline({onComplete:()=>pre.remove()});
+  tl.to(o,{v:100,duration:1.5,ease:"power2.inOut",onUpdate:()=>{$("#preN").textContent=String(Math.round(o.v)).padStart(3,"0");$("#preBar").style.width=o.v+"%"}})
+    .to("#pre .ko",{scale:.8,opacity:0,duration:.5,ease:"power3.in"},"+=.05")
+    .to(pre,{clipPath:"inset(0 0 100% 0)",duration:1,ease:"expo.inOut"},"-=.1")
+    .from("#word .c",{yPercent:110,duration:1.3,ease:"expo.out",stagger:.045},"-=.55")
+    .from("#wall",{opacity:0,scale:1.25,duration:2,ease:"expo.out"},"-=1.4")
+    .from("#hmono",{opacity:0,scale:.6,duration:1.6,ease:"expo.out"},"-=1.8")
+    .from(".htop p,.hbot>*",{y:24,opacity:0,duration:1,ease:"expo.out",stagger:.08},"-=1.2");
+  setTimeout(()=>{if(document.body.contains(pre))pre.remove()},5000);
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click",e=>{
+  const g=s=>e.target.closest(s);let el;
+  if(el=g("[data-close]")){closeSide();if(el.dataset.go)setTimeout(()=>scrollToId(el.dataset.go),50);return}
+  if(el=g("[data-gi]")){const i=+el.dataset.gi;$$(".pv .gal img").forEach((m,k)=>m.style.opacity=k===i?1:0);$$("[data-gi]").forEach(b=>b.classList.toggle("on",b===el));return}
+  if(el=g("[data-open]")){e.preventDefault();$("#search").classList.remove("open");openProduct(el.dataset.open);return}
+  if(el=g("[data-cat]")){F.cat=el.dataset.cat;closeSide();if(location.hash==="#admin")history.replaceState(null,"",location.pathname),route();renderShop(true);scrollToId("shop");return}
+  if(el=g("[data-tab]")){F.cat=el.dataset.tab;renderShop(true);return}
+  if(g("#tSale")){F.sale=!F.sale;renderShop(true);return}
+  if(el=g("[data-go]")){e.preventDefault();scrollToId(el.dataset.go);return}
+  if(g("[data-top]")){e.preventDefault();if(location.hash==="#admin"){history.replaceState(null,"",location.pathname);route()}scrollToId("hero");return}
+  if(g("#veil")){closeSide();return}
+  if(g("#bBag")){openBag();return}
+  if(g("#bSearch")){closeSide();$("#search").classList.add("open");lenis&&lenis.stop();$("#sq").value="";renderSearch();setTimeout(()=>$("#sq").focus(),300);return}
+  if(el=g("[data-sq]")){$("#sq").value=el.dataset.sq;renderSearch();return}
+  if(g("#bMenu")){const m=$("#menu");if(m.classList.contains("open"))closeSide();else{m.classList.add("open");lenis&&lenis.stop()}return}
+  if(g("#bLang")||g("#mLang")){lang=lang==="en"?"ar":"en";ls.set("ko_lang",lang);closeSide();renderAll();return}
+  if(el=g("[data-copy]")){copy(el.dataset.copy);return}
+  if(el=g("[data-sz]")){sel.size=el.dataset.sz;$$("[data-sz]").forEach(b=>b.classList.toggle("on",b===el));updWa(byId($("#pAdd").dataset.id));return}
+  if(el=g("#pAdd")){add(el.dataset.id,sel.size||"?",fit);openBag();return}
+  if(g("#sfBtn")){const b=$("#sfBox");b.hidden=!b.hidden;if(!b.hidden)setTimeout(()=>$("#sfH").focus(),50);return}
+  if(el=g("[data-g]")){gen=el.dataset.g;$$("[data-g]").forEach(x=>x.classList.toggle("on",x===el));return}
+  if(g("#sfGo")){const p=byId($("#pAdd").dataset.id),h=+$("#sfH").value,w=+$("#sfW").value,f=$("#sfF")?+$("#sfF").value:0;
+    const shoeLike=["sneakers","hoops","slides"].includes(p.cat);
+    if(!h&&!f||(!shoeLike&&!w)){$("#sfRes").textContent=t(shoeLike?"sfNeedH":"sfNeedHW");return}
+    const r=recSize(p,h,w,f);sel.size=r.s;fit=`${gen==="f"?"F":"M"}${h?" "+h+"cm":""}${w?" "+w+"kg":""}${f?" foot "+f+"cm":""}`;
+    $$("[data-sz]").forEach(b=>b.classList.toggle("on",b.dataset.sz===r.s));
+    $("#sfRes").innerHTML=`${t("sfRes",{s:`<b>${r.s}</b>`})}${r.note?`<br><span class="dim">${r.note}</span>`:""}`;updWa(p);return}
+  if(el=g("[data-q]")){const l=cart[+el.dataset.q],p=byId(l.id);l.qty=Math.max(1,Math.min(l.qty+ +el.dataset.d,Math.max(1,p.stock)));saveCart();return}
+  if(el=g("[data-rm]")){cart.splice(+el.dataset.rm,1);saveCart();return}
+  if(g("#promoBtn")){const c=$("#promoIn").value.trim().toUpperCase();if(CODES[c]){promo=c;ls.set("ko_promo3",c);toast(t("codeOk"))}else toast(t("codeBad"));openBag(true);return}
+  if(g("#goCo")){openCo();return}
+  if(g("#cpMsg")){copy(window.__msg||"");return}
+  if(g("#bOwner")){location.href="/admin/";return}
+  if(g("#aBack")){history.replaceState(null,"",location.pathname);route();renderAll();scrollTo(0,0);return}
+  if(el=g("[data-atab]")){atab=el.dataset.atab;renderAdmin();return}
+  if(el=g("[data-dl]")){confirmDel=el.dataset.dl;renderAdmin();return}
+  if(g("[data-dn]")){confirmDel="";renderAdmin();return}
+  if(el=g("[data-dy]")){products=products.filter(p=>p.id!==el.dataset.dy);cart=cart.filter(l=>l.id!==el.dataset.dy);confirmDel="";saveP();ls.set("ko_cart3",cart);renderAdmin();toast("Deleted");return}
+  if(g("#rR")){confirmReset=true;renderAdmin();return}
+  if(g("#rN")){confirmReset=false;renderAdmin();return}
+  if(g("#rY")){products=JSON.parse(JSON.stringify(DEFAULTS));orders=[];cart=[];saveP();ls.set("ko_orders3",orders);ls.set("ko_cart3",cart);confirmReset=false;renderAdmin();renderBagCount();toast("Reset");return}
+});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeSide();if(e.key==="Enter"&&e.target.matches(".card[data-open]"))openProduct(e.target.dataset.open)});
+document.addEventListener("input",e=>{if(e.target.id==="sq")renderSearch()});
+document.addEventListener("change",e=>{
+  const el=e.target;
+  if(el.id==="sort"){F.sort=el.value;renderShop(true)}
+  if(el.id==="cC"){const d=readCo();co.country=el.value;d.country=el.value;d.city="";openCo(d)}
+  if(el.name==="pay")co.pay=el.value;
+  if(el.dataset.ed){const p=byId(el.dataset.ed),k=el.dataset.k;let v=el.type==="number"?+el.value:el.value;if(k==="price"&&v<15){v=15;el.value=15;toast("Minimum price is $15")}p[k]=v;saveP();toast("Saved")}
+  if(el.dataset.vis){byId(el.dataset.vis).hidden=!el.checked;saveP();toast("Saved")}
+  if(el.dataset.os){orders[+el.dataset.os].status=el.value;ls.set("ko_orders3",orders);renderAdmin()}
+});
+document.addEventListener("submit",e=>{
+  e.preventDefault();
+  if(e.target.id==="coF")place();
+  if(e.target.id==="addF"){
+    const name=$("#aN").value.trim(),brand=$("#aB").value.trim()||"KO Trends",cat=$("#aC").value,price=Math.max(15,+$("#aP").value||15),f=$("#aI").files[0];
+    if(!name){toast("Add a product name");return}
+    const fin=src=>{products.unshift(P(name.toLowerCase().replace(/[^a-z0-9]+/g,"-")+"-"+Date.now().toString(36),name,brand,cat,price,src||CATS.find(c=>c.id===cat).img,{tag:"new",feat:11,added:99,desc:"New in at KO Trends."}));saveP();renderAdmin();toast("Added to the store")};
+    if(f){const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const c=document.createElement("canvas"),w=im.width,h=im.height,s=Math.min(w,h*.8);c.width=640;c.height=800;c.getContext("2d").drawImage(im,(w-s)/2,(h-s*1.25)/2,s,s*1.25,0,0,640,800);fin(c.toDataURL("image/jpeg",.82))};im.src=r.result};r.readAsDataURL(f)}else fin("");
+  }
+});
+function scrollToId(id){const el=document.getElementById(id);if(!el)return;if(lenis)lenis.scrollTo(el,{offset:id==="hero"?0:-20,duration:1.4});else el.scrollIntoView({behavior:"smooth"})}
+addEventListener("hashchange",route);
+addEventListener("resize",()=>{if(!window.gsap||RM)setCam(340)});
+
+/* boot */
+renderAll(false);
+buildScenes();
+initOnce();
+initMotion();
+route();
+intro();
+loadProducts();
+addEventListener("load",()=>window.ScrollTrigger&&ScrollTrigger.refresh());
+})();
+</script>
+<script type="importmap">{"imports":{"three":"/vendor/three/three.module.min.js","three/addons/":"/vendor/three/addons/"}}</script>
+<script type="module">
+import * as THREE from "three";
+import {GLTFLoader} from "three/addons/loaders/GLTFLoader.js";
+import {RoomEnvironment} from "three/addons/environments/RoomEnvironment.js";
+const cv=document.getElementById("mk"),sec=document.getElementById("make");
+let renderer;
+try{renderer=new THREE.WebGLRenderer({canvas:cv,antialias:true,alpha:true,powerPreference:"high-performance"})}catch(e){document.getElementById("mkPoster").hidden=false;throw e}
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
+renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.localClippingEnabled=true;
+const scene=new THREE.Scene();
+const pm=new THREE.PMREMGenerator(renderer);scene.environment=pm.fromScene(new RoomEnvironment(renderer),.04).texture;
+const cam=new THREE.PerspectiveCamera(28,1,.01,20);
+const key=new THREE.DirectionalLight(0xfff1dc,1.6);key.position.set(.6,1,.8);scene.add(key);
+const rim=new THREE.DirectionalLight(0xd9a85a,0);rim.position.set(-1,.6,-1);scene.add(rim);
+scene.add(new THREE.HemisphereLight(0xffffff,0x1a140c,.35));
+const pivot=new THREE.Group();scene.add(pivot);
+// soft contact shadow
+const sc=document.createElement("canvas");sc.width=sc.height=256;const g=sc.getContext("2d");const gr=g.createRadialGradient(128,128,0,128,128,128);gr.addColorStop(0,"rgba(0,0,0,.75)");gr.addColorStop(1,"rgba(0,0,0,0)");g.fillStyle=gr;g.fillRect(0,0,256,256);
+const shadow=new THREE.Mesh(new THREE.PlaneGeometry(.42,.16),new THREE.MeshBasicMaterial({map:new THREE.CanvasTexture(sc),transparent:true,depthWrite:false}));shadow.rotation.x=-Math.PI/2;shadow.position.y=-.0765;scene.add(shadow);
+// sweep line
+const sweep=new THREE.Mesh(new THREE.PlaneGeometry(.0025,.26),new THREE.MeshBasicMaterial({color:0xebc98c,transparent:true,opacity:0,depthWrite:false}));scene.add(sweep);
+const planeTex=new THREE.Plane(new THREE.Vector3(-1,0,0),-1),planeClay=new THREE.Plane(new THREE.Vector3(1,0,0),1);
+let tex,clay,lines,lineCount=0,maps={},cur="";
+const loader=new GLTFLoader();
+fetch("model/shoe.b64.txt").then(r=>r.text()).then(b=>{const bin=atob(b.trim()),u=new Uint8Array(bin.length);for(let i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);loader.parse(u.buffer,"",async gltf=>{
+  const src=[];gltf.scene.traverse(o=>{if(o.isMesh)src.push(o)});
+  const mesh=src[0];const geo=mesh.geometry;
+  geo.computeBoundingBox();const bb=geo.boundingBox,c=new THREE.Vector3(),sz=new THREE.Vector3();bb.getCenter(c);bb.getSize(sz);geo.translate(-c.x,-c.y,-c.z);const k=.3/Math.max(sz.x,sz.y,sz.z);geo.scale(k,k,k);geo.computeBoundingBox();const L=geo.boundingBox;window.__shoeBB=[L.min.toArray(),L.max.toArray()];
+  const parser=gltf.parser,json=parser.json;
+  for(let i=0;i<json.textures.length;i++){const tx=json.textures[i],si=tx.source??(tx.extensions&&tx.extensions.EXT_texture_webp&&tx.extensions.EXT_texture_webp.source),im=json.images[si]||{};const n=(im.name||"");for(const k of ["Street","Beach","Midnight"])if(n.includes(k)){const t=await parser.getDependency("texture",i);t.colorSpace=THREE.SRGBColorSpace;t.flipY=false;maps[k]=t}}
+  const ko=await new THREE.TextureLoader().loadAsync("model/ko_base.webp");ko.colorSpace=THREE.SRGBColorSpace;ko.flipY=false;maps.KO=ko;
+  const m=mesh.material.clone();m.clippingPlanes=[planeTex];m.map=maps.Street||m.map;m.needsUpdate=true;
+  tex=new THREE.Mesh(geo,m);
+  clay=new THREE.Mesh(geo,new THREE.MeshStandardMaterial({color:0x5b544a,roughness:.85,metalness:0,transparent:true,opacity:0,clippingPlanes:[planeClay]}));
+  // edges sorted toe to heel so the sketch draws along the shoe
+  const eg=new THREE.EdgesGeometry(geo,18),pa=eg.attributes.position.array,segs=[];
+  for(let i=0;i<pa.length;i+=6)segs.push([pa[i],pa[i+1],pa[i+2],pa[i+3],pa[i+4],pa[i+5]]);
+  segs.sort((a,b)=>(a[0]+a[3])-(b[0]+b[3]));
+  const arr=new Float32Array(segs.length*6);segs.forEach((s,i)=>arr.set(s,i*6));
+  const lg=new THREE.BufferGeometry();lg.setAttribute("position",new THREE.BufferAttribute(arr,3));lineCount=segs.length*2;
+  lines=new THREE.LineSegments(lg,new THREE.LineBasicMaterial({color:0xd9ad66,transparent:true,opacity:.9}));
+  pivot.add(clay,tex,lines);
+  sec.classList.add("ready");
+  resize();loop();
+},()=>{document.getElementById("mkPoster").hidden=false})}).catch(()=>{document.getElementById("mkPoster").hidden=false});
+function resize(){const w=sec.clientWidth,h=sec.clientHeight;renderer.setSize(w,h,false);cam.aspect=w/h;cam.updateProjectionMatrix()}
+addEventListener("resize",resize);
+const S=(a,b,x)=>{const t=Math.min(1,Math.max(0,(x-a)/(b-a)));return t*t*(3-2*t)};
+const lerp=(a,b,t)=>a+(b-a)*t;
+function key3(p,ks){for(let i=0;i<ks.length-1;i++){const[a,va]=ks[i],[b,vb]=ks[i+1];if(p<=b)return lerp(va,vb,S(a,b,p))}return ks[ks.length-1][1]}
+let p=0,mx=0,my=0;addEventListener("mousemove",e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+const names={en:["Sketch","Form","Material","Street","Beach","Midnight","KO Edition"],ar:["سكيتش","القالب","الخامة","Street","Beach","Midnight","إصدار KO"]};
+function loop(){
+  requestAnimationFrame(loop);
+  const tp=window.__mkP||0;p+=(tp-p)*.12;
+  const r=sec.getBoundingClientRect();if(r.bottom<0||r.top>innerHeight)return;
+  const narrow=innerWidth<760;
+  // camera + framing
+  const fit=.36/(2*Math.tan(THREE.MathUtils.degToRad(cam.fov/2))*cam.aspect);const dist=Math.max(key3(p,[[0,.95],[.36,.78],[.8,.86],[1,.74]]),narrow?fit:0);
+  cam.position.set(narrow?0:-.07,.05+my*.02,dist);cam.lookAt(narrow?0:-.07,narrow?-.005:.0,0);
+  pivot.position.x=0;pivot.position.y=narrow?-.02:0;
+  pivot.rotation.y=key3(p,[[0,-1.0],[.18,-.35],[.33,0],[.56,0],[.8,Math.PI*2],[1,Math.PI*2-.6]])+mx*.25;
+  pivot.rotation.x=key3(p,[[0,.35],[.33,.05],[.8,.05],[1,.18]])+my*.08;
+  pivot.rotation.z=key3(p,[[0,.08],[.33,0],[1,-.04]]);
+  shadow.position.x=pivot.position.x;shadow.material.opacity=S(.18,.36,p)*.9;
+  // 01 sketch: draw lines toe to heel
+  lines.geometry.setDrawRange(0,Math.floor(lineCount*S(0,.16,p)/2)*2);
+  lines.material.opacity=.9*(1-S(.24,.42,p));
+  // 02 form: clay fades in
+  clay.material.opacity=S(.16,.3,p);
+  // 03 material: clipping sweep along x (world)
+  const sw=S(.38,.56,p),X=lerp(-.19,.19,sw);
+  planeTex.constant=p<.38?-1:(p>.56?1:X);planeClay.constant=p<.38?1:(p>.56?-1:-X);
+  sweep.position.set(X,.0,0.0);sweep.material.opacity=(p>.37&&p<.57)?.95:0;
+  // 04 colourways, 05 KO edition
+  let want=p<.64?"Street":p<.72?"Beach":p<.8?"Midnight":"KO";
+  if(want!==cur&&maps[want]){tex.material.map=maps[want];tex.material.needsUpdate=true;cur=want}
+  rim.intensity=S(.82,.95,p)*3.2;key.intensity=1.6+S(.82,1,p)*.4;
+  renderer.render(scene,cam);
+  // ui
+  const st=p<.18?0:p<.36?1:p<.58?2:p<.84?3:4;
+  if(window.__mkStage!==st){window.__mkStage=st;document.querySelectorAll("#mksteps li").forEach((li,i)=>li.classList.toggle("on",i===st));document.getElementById("mkBig").textContent="0"+(st+1)}
+  const L=document.documentElement.lang==="ar"?"ar":"en",nm=names[L];
+  const cw=st<3?nm[st]:want==="KO"?nm[6]:nm[{Street:3,Beach:4,Midnight:5}[want]];
+  const el=document.getElementById("mkCwName");if(el.textContent!==cw)el.textContent=cw;
+  document.getElementById("mkBar").style.width=(p*100).toFixed(1)+"%";
+}
+</script>
+
+
+</body>
+</html>

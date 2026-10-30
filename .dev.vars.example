@@ -1,0 +1,2 @@
+ADMIN_PASSWORD="change-me-local"
+SESSION_SECRET="any-long-random-text-for-local-testing"

@@ -1,0 +1,47 @@
+CREATE TABLE IF NOT EXISTS products (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  brand TEXT NOT NULL DEFAULT '',
+  cat TEXT NOT NULL,
+  price REAL NOT NULL,
+  was REAL NOT NULL DEFAULT 0,
+  sizes TEXT NOT NULL DEFAULT '[]',
+  out_sizes TEXT NOT NULL DEFAULT '[]',
+  stock INTEGER NOT NULL DEFAULT 0,
+  tag TEXT NOT NULL DEFAULT '',
+  color TEXT NOT NULL DEFAULT '',
+  descr TEXT NOT NULL DEFAULT '',
+  imgs TEXT NOT NULL DEFAULT '[]',
+  cut TEXT NOT NULL DEFAULT '',
+  feat INTEGER NOT NULL DEFAULT 0,
+  added INTEGER NOT NULL DEFAULT 0,
+  hidden INTEGER NOT NULL DEFAULT 0,
+  updated_at TEXT NOT NULL DEFAULT (datetime('now'))
+);
+CREATE TABLE IF NOT EXISTS orders (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  code TEXT,
+  created_at TEXT NOT NULL DEFAULT (datetime('now')),
+  name TEXT NOT NULL DEFAULT '',
+  phone TEXT NOT NULL,
+  country TEXT NOT NULL,
+  city TEXT NOT NULL DEFAULT '',
+  address TEXT NOT NULL DEFAULT '',
+  notes TEXT NOT NULL DEFAULT '',
+  payment TEXT NOT NULL,
+  items TEXT NOT NULL,
+  subtotal REAL NOT NULL,
+  discount REAL NOT NULL DEFAULT 0,
+  delivery REAL NOT NULL DEFAULT 0,
+  total REAL NOT NULL,
+  promo TEXT NOT NULL DEFAULT '',
+  status TEXT NOT NULL DEFAULT 'New',
+  restocked INTEGER NOT NULL DEFAULT 0
+);
+CREATE INDEX IF NOT EXISTS idx_orders_created ON orders(created_at);
+CREATE INDEX IF NOT EXISTS idx_orders_status ON orders(status);
+CREATE TABLE IF NOT EXISTS login_fails (
+  ip TEXT NOT NULL,
+  at INTEGER NOT NULL
+);
+CREATE INDEX IF NOT EXISTS idx_login_fails ON login_fails(ip, at);

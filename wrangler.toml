@@ -1,0 +1,12 @@
+name = "ko-trends"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ko-trends"
+database_id = "37ddab09-d340-4058-8af1-7720a5873c11"
+
+[[r2_buckets]]
+binding = "MEDIA"
+bucket_name = "ko-trends-media"
